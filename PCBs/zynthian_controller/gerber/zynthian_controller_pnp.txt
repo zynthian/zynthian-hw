@@ -1,0 +1,54 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=zynthian_controller
+*Date=16:46:54
+*CreatedBy=Fritzing 0.8.7b.01.24.1bf5
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;10.9093;-58.7916;0;Bottom;Copper Fill20
+2;;;8.9916;-17.3388;0;Bottom;Copper Fill18
+3;;;12.8397;-34.9156;0;Bottom;Copper Fill8
+4;;;12.065;-34.1155;0;Bottom;Copper Fill10
+5;;;8.43046;-52.0019;0;Bottom;ENC1
+6;;;14.9225;-2.8862;0;Bottom;Copper Fill14
+7;;;5.969;-35.5887;0;Bottom;Copper Fill28
+8;;;10.0076;-24.0571;0;Bottom;Copper Fill26
+9;;;10.9093;-24.9588;0;Bottom;Copper Fill25
+10;;;15.7988;-3.7371;0;Bottom;Copper Fill33
+11;;;12.8397;-34.9156;0;Bottom;Copper Fill24
+12;;;10.0076;-59.6679;0;Bottom;Copper Fill21
+13;;;10.9093;-60.5696;0;Bottom;Copper Fill19
+14;;;11.7856;-59.6679;0;Bottom;Copper Fill6
+15;;;9.4869;-28.972;0;Bottom;Copper Fill30
+16;;;10.9093;-60.5696;0;Bottom;Copper Fill4
+17;;;8.3693;-9.7188;0;Bottom;Copper Fill16
+18;;;9.6774;-6.239;0;Bottom;Copper Fill2
+19;;;12.8397;-33.3408;0;Bottom;Copper Fill9
+20;;;11.7856;-59.6679;0;Bottom;Copper Fill22
+21;;;10.0076;-59.6679;0;Bottom;Copper Fill5
+22;;;11.7856;-24.0571;0;Bottom;Copper Fill12
+23;;;6.1722;-24.019;0;Bottom;Copper Fill1
+24;;;14.9225;-4.6134;0;Bottom;Copper Fill31
+25;;molex-1x2_lock;6.64816;-34.166;-90;Bottom;SW2
+26;;;8.43046;-16.3753;0;Bottom;ENC2
+27;100nF;100 mil [THT, multilayer];8.23446;-29.7224;0;Bottom;C2
+28;;;8.9916;-32.909;0;Bottom;Copper Fill17
+29;;;11.7856;-24.0571;0;Bottom;Copper Fill27
+30;;molex-1x6_lock;8.63803;-4.18327;0;Bottom;RBPi
+31;;;8.3693;-43.5516;0;Bottom;Copper Fill7
+32;;;14.9225;-2.8862;0;Bottom;Copper Fill32
+33;100nF;100 mil [THT, multilayer];14.1772;-34.0946;0;Bottom;C1
+34;;;8.3693;-45.3296;0;Bottom;Copper Fill23
+35;;;8.9916;-31.258;0;Bottom;Copper Fill3
+36;;;10.2616;-29.7467;0;Bottom;Copper Fill13
+37;;;7.6962;-35.5887;0;Bottom;Copper Fill29
+38;;;10.0076;-24.0571;0;Bottom;Copper Fill11
+39;;;15.7988;-3.7371;0;Bottom;Copper Fill15

@@ -1,0 +1,244 @@
+
+HIFIBERRY
+----------
+setgpio 2 ALT0 UP # I2C communication DAC chip
+setgpio 3 ALT0 UP # I2C communication DAC chip
+setgpio 6 INPUT DEFAULT # do not use, reserved for Master clock
+setgpio 18 ALT0 DEFAULT # I2S
+setgpio 19 ALT0 DEFAULT # I2S
+setgpio 20 ALT0 DEFAULT # I2S
+setgpio 21 ALT0 DEFAULT # I2S
+
+That means, GPIO 2,3,6 and 18-21 are used.
+Note that this are the GPIO numbers, NOT the pin numbers. These pins are used for the Digi+ and the DAC+
+
+GPIO2 and 3 can be used also for other I2C devices, but not as general-purpose-IOs.
+
+WOLFSON
+--------
+Pins del 01 al 16
+
+PiTFT TOUCHSCREEN
+-----------------
+This design uses the hardware SPI pins (SCK, MOSI, MISO, CE0, CE1) as well as GPIO #25 and
+#24. All other GPIO are unused. Since we had a tiny bit of space, there's 4 spots for optional slim
+tactile switches wired to four GPIOs, that you can use if you want to make a basic user interface.
+For example, you can use one as a power on/off button.
+We bring out GPIO #23, #22, #21, and #18 to the four switch locations!
+
+-------------------------------------------------------------------------------
+
+I2C / I2S pins => HiFiBerry
+---------------------------
+GPIO-02 => SDA1 I2C => pin 3
+GPIO-03 => SDA1 I2C => pin 5
+GPIO-06 => HFB Reserved (MASTER CLOCK) => pin 31
+GPIO-18 => PCM_CLK  => pin 12
+GPIO-19 => PCM_FS   => pin 35
+GPIO-20 => PCM_DIN  => pin 38
+GPIO-21 => PCM_DOUT => pin 40
+
+SPI pins => PiTFT
+-----------------
+GPIO-11 => SPI_SCLK =>  Pin 23
+GPIO-10 => SPI_MOS1 =>  Pin 19
+GPIO-09 => SPI_MISO =>  Pin 21
+GPIO-08 => SPI_CE0_N =>  Pin 24
+GPIO-07 => SPI_CE1_N =>  Pin 26
+
+GPIO-24 => PiTFT => WPi 05 => Pin 18
+GPIO-25 => PiTFT => Wpi 06 => Pin 22
+
+SWITCHES
+---------
+GPIO-22 => WPi 03 => Pin 15
+GPIO-23 => WPi 04 => Pin 16
+GPIO-14 => WPi 15 => Pin 8 (TxD) => ???
+
+ROTARY CONTROLLERS
+-------------------
+GPIO-04 => WPi 07 => Pin 7 
+GPIO-17 => WPi 00 => Pin 11
+
+GPIO-05 => WPi 21 => Pin 29
+GPIO-27 => WPi 02 => Pin 13
+
+GPIO-12 => WPi 26 => Pin 32
+GPIO-13 => WPi 23 => Pin 33
+
+GPIO-26 => WPi 25 => Pin 37
+GPIO-16 => WPi 27 => Pin 36
+
+MIDI IN
+-------
+GPIO-15 => RxD => WPi 16 => Pin 10 => UART
+
+MIDI OUT
+--------
+GPIO-14 => TxD => WPi 15 => Pin 8 => UART
+
+---------------------------------------
+ASIGNACIÓN ZYNTHIAN PROTOTYPE 1
+---------------------------------------
+
+Cable numbers are assigned from left to right.
+
+CONTROLLER 1:
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				Enc2-A				21			29
+2				Enc1-B				25			37
+3				GND						GND			34
+4				Enc2-B				26			32
+5				Enc1-A				27			36
+6				Enc1-SW				23			33
+
+CONTROLLER 2:
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				Enc2-A				07			07
+2				Enc1-B				04			16
+3				GND						GND			14
+4				Enc2-B				00			11
+5				Enc1-A				03			15
+6				Enc1-SW				02			13
+
+MIDI & AUX:
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				NONE
+2				RxD						RxD			10
+3				MIDI-IN-5			-				5 (MIDI-IN Connector => 2º por la izda)
+4				MIDI-IN-4			-				4 (MIDI-IN Connector => 2º por la dcha)
+5				GND						GND			6
+6				Vdc						3.3V		1
+
+---------------------------------------
+ASIGNACIÓN ZYNTHIAN PROTOTYPE 2
+---------------------------------------
+
+Cable numbers are assigned from left to right.
+
+CONTROLLER 1:
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				Enc1-B				25			37
+2				Enc1-A				27			36
+3				Enc1-SW				23			33
+4				Enc2-B				26			32
+5				Enc2-A				21			29
+6				GND						GND			30
+
+CONTROLLER 2:
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				Enc1-B				04			16
+2				Enc1-A				03			15
+3				Enc1-SW				02			13
+4				Enc2-B				00			11
+5				Enc2-A				07			07
+6				GND						GND			14/20
+
+
+MIDI & GPIO Expander: 3 connectors
+-----------------------------------
+
+RBPi Connector
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				Vdc 3.3V			3.3V		1
+2				RxD						RxD			10
+3				I2C SDA1			09			5
+4				I2C SCL1			08			3
+5				Vdc 5V				5V			2/4
+6				GND						GND			6/9
+
+MIDI-IN Connector
+----------------------------
+Cable		Función				Pin#
+----------------------------
+1				MIDI-IN-4			4 (MIDI-IN Connector => 2º por la dcha)
+2				MIDI-IN-5			5 (MIDI-IN Connector => 2º por la izda)
+
+GPIO-ext Connector
+----------------------------
+Cable		Función				Pin#
+----------------------------
+1				GPIO-X01			01
+2				GPIO-X02			02
+3				GPIO-X03			03
+4				GPIO-X04			04
+5				GPIO-X05			05
+6				GPIO-X06			06
+7				GPIO-X07			07
+8				GPIO-X08			08
+
+
+---------------------------------------
+ASIGNACIÓN ZYNTHIAN PROTOTYPE 3
+---------------------------------------
+
+Cable numbers are assigned from left to right.
+
+CONTROLLER 1:
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				Enc2-A				21			29
+2				Enc2-B				26			32
+3				Enc1-SW				23			33
+4				Enc1-A				27			36
+5				Enc1-B				25			37
+6				GND						GND			39
+
+CONTROLLER 2:
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				Enc2-A				07			07
+2				Enc2-B				00			11
+3				Enc1-SW				02			13
+4				Enc1-A				03			15
+5				Enc1-B				04			16
+6				GND						GND			14/20
+
+
+MIDI & GPIO Expander: 3 connectors
+-----------------------------------
+
+RBPi Connector
+-----------------------------------
+Cable		Función				GPIO		Pin#
+-----------------------------------
+1				Vdc 3.3V			3.3V		1
+2				RxD						RxD			10
+3				I2C SDA1			09			5
+4				I2C SCL1			08			3
+5				Vdc 5V				5V			2/4
+6				GND						GND			6/9
+
+MIDI-IN Connector
+----------------------------
+Cable		Función				Pin#
+----------------------------
+1				MIDI-IN-4			4 (MIDI-IN Connector => 2º por la dcha)
+2				MIDI-IN-5			5 (MIDI-IN Connector => 2º por la izda)
+
+GPIO-ext Connector
+----------------------------
+Cable		Función				Pin#
+----------------------------
+1				GPIO-X01			01
+2				GPIO-X02			02
+3				GPIO-X03			03
+4				GPIO-X04			04
+5				GPIO-X05			05
+6				GPIO-X06			06
+7				GPIO-X07			07
+8				GPIO-X08			08

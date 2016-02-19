@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="72" version="1.1" height="72" id="svg4364">
+ <defs  id="defs4366"/>
+ <metadata  id="metadata4369">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work xmlns:cc="http://creativecommons.org/ns#" rdf:about="" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g  style="display:inline" id="layer1" transform="translate(0,-980.36579)"/>
+ <g  id="pcb">
+  <g  id="copper0" transform="translate(0,-672.09447)">
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector1pin" d="m 29.605,735.09068 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector2pin" d="m 38.605,735.09068 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector3pin" d="m 47.605,735.09068 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector4pin" d="m 29.605,681.09448 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector5pin" d="m 47.605,681.09448 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+  </g>
+  <g  id="copper1" transform="translate(0,-672.09447)">
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector1pin" d="m 29.605,735.09068 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector2pin" d="m 38.605,735.09068 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector3pin" d="m 47.605,735.09068 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector4pin" d="m 29.605,681.09448 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+   <path  style="fill:none;stroke:#f6ca34;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" id="connector5pin" d="m 47.605,681.09448 a 2.65,2.65 0 0 1 -5.3,0 2.65,2.65 0 1 1 5.3,0 z"/>
+  </g>
+  <g  id="silkscreen" transform="translate(0,-672.09447)">
+   <g  xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace" style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA" id="text8757" transform="translate(17.955,718.79028)">
+    <g  style="font-size:4px;fill:#ffffff;fill-opacity:1" id="tspan8759">
+     <text  x="9" y="22.950001" style="font-size:3.5px" id="tspan12480">A</text>
+    </g>
+   </g>
+   <g  xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace" style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA" id="text8761" transform="translate(17.955,707.59028)">
+    <g  style="font-size:4px;fill:#ffffff;fill-opacity:1" id="tspan8763">
+     <text  x="18" y="34.200001" style="font-size:3.5px" id="tspan12478">COM</text>
+    </g>
+   </g>
+   <g  xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace" style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA" id="text8765" transform="translate(17.955,718.79048)">
+    <g  style="font-size:4px;fill:#ffffff;fill-opacity:1" id="tspan8767">
+     <text  x="27" y="22.950001" style="font-size:3.5px" id="tspan12476">B</text>
+    </g>
+   </g>
+   <rect  width="71.099998" x="0.44999999" y="672.54449" height="71.096123" style="fill:none;stroke:#ffffff;stroke-width:0.63;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="rect8769"/>
+   <g style="font-size:4px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans" id="text5022" xml:space="preserve">
+    <text x="32.849998" y="682.44446" id="tspan5024">SW</text>
+   </g>
+   <path  style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.44999999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="path5028" d="m 32.4,681.09448 -1.35,0"/>
+   <path  style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.44999999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="path5030" d="m 40.95,681.09448 -1.35,0"/>
+  </g>
+ </g>
+</svg>
