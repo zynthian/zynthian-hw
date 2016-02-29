@@ -1,0 +1,17 @@
+
+Main Ribbon Cable:
+------------------
+
+CON1===5cm===CON2-----12cm-----CON3
+
+Legend:
+------------------------------------
+CON1 => 1 x connector 40 pin female
+CON2 => 1 x connector 40 pin male
+CON3 => 1 x connector 26 pin female
+===> 40pin ribbon cable
+---> 40pin ribbon cable cutted to 26pin
+------------------------------------
+Total Lenght: 17cm (cut 18cm ;-)
+
+
