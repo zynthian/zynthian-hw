@@ -1,7 +1,5 @@
 # Zynthian Hardware
 
-[![Join the chat at https://gitter.im/zynthian/zynthian-hw](https://badges.gitter.im/zynthian/zynthian-hw.svg)](https://gitter.im/zynthian/zynthian-hw?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [Zynthian] (http://zynthian.org) is an Open Synth Platform based in Raspberry Pi, Linux (Raspbian) and Open Software Synthesizers.
 
 ![Image of Zynthian Box Design](http://zynthian.org/img/github/zynthian-case-render-01.jpg)
@@ -22,3 +20,5 @@ A [Zynthian Box] (http://blog.zynthian.org/index.php/2015/11/22/building-a-zynth
 ![Image of a Zynthian Box](http://zynthian.org/img/github/zynthian-prototype2-01.jpg)
 
 You can learn more about the Zynthian Project reading [the blog] (http://blog.zynthian.org) or visiting [the website] (http://zynthian.org).
+
+[![Join the chat at https://gitter.im/zynthian/zynthian-hw](https://badges.gitter.im/zynthian/zynthian-hw.svg)](https://gitter.im/zynthian/zynthian-hw?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
