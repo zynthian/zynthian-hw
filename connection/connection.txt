@@ -10,6 +10,8 @@ ZYNTHIAN PROTOTYPE-4
 -----------------------------------------------------------
 ***********************************************************
 
+Controller RBPi connector upside
+
 Wire numbers are assigned from left to right.
 If you solder the controller pinrow connector in the reverse side of PCB, 
 as i recommend, take it into account ;-)
@@ -65,8 +67,8 @@ Wire		Function		GPIO		Pin#
 -------------------------------------------------
 1			Vdc 3.3V		3.3V		1
 2			RxD				RxD			10
-3			I2C SDA1		09			5
-4			I2C SCL1		08			3
+3			I2C SDA1		08			3
+4			I2C SCL1		09			5
 5			Vdc 5V			5V			2/4
 6			GND				GND			6/9
 
@@ -96,6 +98,8 @@ Wire		Function		MCP23008 Pin#
 ZYNTHIAN PROTOTYPE-3
 -----------------------------------------------------------
 ***********************************************************
+
+Controller RBPi connector upside
 
 Wire numbers are assigned from left to right.
 If you solder the controller pinrow connector in the reverse side of PCB, 
@@ -153,8 +157,8 @@ Wire		Function		GPIO		Pin#
 -------------------------------------------------
 1			Vdc 3.3V		3.3V		1
 2			RxD				RxD			10
-3			I2C SDA1		09			5
-4			I2C SCL1		08			3
+3			I2C SDA1		08			3
+4			I2C SCL1		09			5
 5			Vdc 5V			5V			2/4
 6			GND				GND			6/9
 
@@ -184,6 +188,8 @@ Wire		Function		MCP23008 Pin#
 ZYNTHIAN PROTOTYPE-2
 -----------------------------------------------------------
 ***********************************************************
+
+Controller RBPi connector downside, controller 1 reversed
 
 Wire numbers are assigned from left to right.
 If you solder the controller pinrow connector in the reverse side of PCB, 
@@ -227,8 +233,8 @@ Wire		Function		GPIO		Pin#
 -------------------------------------------------
 1			Vdc 3.3V		3.3V		1
 2			RxD				RxD			10
-3			I2C SDA1		09			5
-4			I2C SCL1		08			3
+3			I2C SDA1		08			3
+4			I2C SCL1		09			5
 5			Vdc 5V			5V			2/4
 6			GND				GND			6/9
 
@@ -258,6 +264,8 @@ Wire		Function		MCP23008 Pin#
 ZYNTHIAN PROTOTYPE-1
 -----------------------------------------------------------
 ***********************************************************
+
+Breadcrumb Circuit Board
 
 Wire numbers are assigned from left to right.
 If you solder the controller pinrow connector in the reverse side of PCB, 
