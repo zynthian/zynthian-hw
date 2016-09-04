@@ -1,0 +1,41 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=zynthian_controller_single
+*Date=13:15:47
+*CreatedBy=Fritzing 0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;10.7696;-24.8883;0;Bottom;Copper Fill20
+2;;;11.6713;-25.8154;0;Bottom;Copper Fill6
+3;;;12.4714;-17.789;0;Bottom;Copper Fill12
+4;100nF;100 mil [THT, multilayer];14.4445;-6.15415;0;Bottom;C1
+5;;;5.5753;-5.4446;0;Bottom;Copper Fill5
+6;;;13.8684;-1.7235;0;Bottom;Copper Fill4
+7;;;11.6713;-24.012;0;Bottom;Copper Fill19
+8;100nF;100 mil [THT, multilayer];9.43941;-6.17798;180;Bottom;C3
+9;;;10.7696;-3.3618;0;Bottom;Copper Fill14
+10;100nF;100 mil [THT, multilayer];4.32753;-6.17798;0;Bottom;C2
+11;;;12.5476;-24.8883;0;Bottom;Copper Fill8
+12;;;11.6713;-25.8154;0;Bottom;Copper Fill18
+13;;;16.4592;-6.1939;0;Bottom;Copper Fill11
+14;;;9.1948;-13.6234;0;Bottom;Copper Fill2
+15;;;9.1313;-10.6008;0;Bottom;Copper Fill17
+16;;;10.7696;-24.8883;0;Bottom;Copper Fill7
+17;;;15.6845;-6.994;0;Bottom;Copper Fill9
+18;;;15.6845;-5.4192;0;Bottom;Copper Fill10
+19;;;9.17494;-17.2503;0;Bottom;ENC1
+20;;;8.9662;-13.6234;0;Bottom;Copper Fill13
+21;;;13.8684;-1.7235;0;Bottom;Copper Fill16
+22;;;12.9921;-0.9234;0;Bottom;Copper Fill15
+23;;molex-1x4_lock;9.24647;-1.50769;180;Bottom;RBPi
+24;;;12.9921;-0.9234;0;Bottom;Copper Fill3
+25;;;10.3124;-4.0222;0;Bottom;Copper Fill1
+26;;;12.5476;-24.8883;0;Bottom;Copper Fill21
