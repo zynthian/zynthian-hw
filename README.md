@@ -21,5 +21,6 @@ A [Zynthian Box] (http://blog.zynthian.org/index.php/2015/11/22/building-a-zynth
 
 You can learn more about the Zynthian Project reading [the blog] (http://blog.zynthian.org) or visiting [the website] (http://zynthian.org). Also, you can join the conversation in [the forum] (https://discourse.zynthian.org).
 
-[![CC BY SA](http://es.creativecommons.org/blog/wp-content/uploads/2013/04/by-sa_petit.png)] (
-http://creativecommons.org/licenses/by-sa/4.0/) This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License] (href="http://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons Attribution-ShareAlike 4.0 International License](http://es.creativecommons.org/blog/wp-content/uploads/2013/04/by-sa_petit.png)] (
+http://creativecommons.org/licenses/by-sa/4.0/)
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License] (http://creativecommons.org/licenses/by-sa/4.0/)
