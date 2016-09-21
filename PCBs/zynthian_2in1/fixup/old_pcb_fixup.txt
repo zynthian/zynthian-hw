@@ -1,6 +1,0 @@
-
-The first version of the zynthian_2in1 PCB miss a track and a fixup was
-required. The photo show the trick.
-
-The repository version is fixed and update, so you don't need to fix
-nothing if using the last version.
