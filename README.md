@@ -19,6 +19,6 @@ A [Zynthian Box] (http://blog.zynthian.org/index.php/2015/11/22/building-a-zynth
 
 ![Image of a Zynthian Box](http://zynthian.org/img/github/zynthian-prototype2-01.jpg)
 
-You can learn more about the Zynthian Project reading [the blog] (http://blog.zynthian.org) or visiting [the website] (http://zynthian.org).
+You can learn more about the Zynthian Project reading [the blog] (http://blog.zynthian.org) or visiting [the website] (http://zynthian.org). Also, you can join the conversation in [the forum] (https://discourse.zynthian.org).
 
-[![Join the chat at https://gitter.im/zynthian/zynthian-hw](https://badges.gitter.im/zynthian/zynthian-hw.svg)](https://gitter.im/zynthian/zynthian-hw?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![CC BY SA](http://es.creativecommons.org/blog/wp-content/uploads/2013/04/by-sa_petit.png)
