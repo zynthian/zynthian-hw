@@ -3,5 +3,5 @@ Zynthian Controller (2 needed)
 -------------------------------
 2 x rotary encoders with switch (20/24 steps) => PEC11R-4215K-S0024
 2 x ceramic capacitor 100nF (C1, C2)
-1 x 6 pin male connector (RBPi)
-1 x 2 pin male connector (SW2)
+1 x 6 pin-row angled male connector (RBPi)
+1 x 2 pin-row angled male connector (SW2)
