@@ -1,7 +1,7 @@
 
 This test programs has been contributed by:
 
-+ Marnix Deforche <deforche.marnix@edpnet.be>
++ Marnix Deforche < deforche@imager.be>
 
 You will find useful explanations about this test programs in this forum post:
 
