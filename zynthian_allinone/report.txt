@@ -1,0 +1,7 @@
+Plot file '/mnt/md0/home/txino/Zauber/zynthian/kicad/zynthian_allinone/gerber/zynthian_allinone-F.Cu.gbr' created.
+Plot file '/mnt/md0/home/txino/Zauber/zynthian/kicad/zynthian_allinone/gerber/zynthian_allinone-B.Cu.gbr' created.
+Plot file '/mnt/md0/home/txino/Zauber/zynthian/kicad/zynthian_allinone/gerber/zynthian_allinone-B.SilkS.gbr' created.
+Plot file '/mnt/md0/home/txino/Zauber/zynthian/kicad/zynthian_allinone/gerber/zynthian_allinone-F.SilkS.gbr' created.
+Plot file '/mnt/md0/home/txino/Zauber/zynthian/kicad/zynthian_allinone/gerber/zynthian_allinone-B.Mask.gbr' created.
+Plot file '/mnt/md0/home/txino/Zauber/zynthian/kicad/zynthian_allinone/gerber/zynthian_allinone-F.Mask.gbr' created.
+Plot file '/mnt/md0/home/txino/Zauber/zynthian/kicad/zynthian_allinone/gerber/zynthian_allinone-Edge.Cuts.gbr' created.
