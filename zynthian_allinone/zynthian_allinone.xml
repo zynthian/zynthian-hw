@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/mnt/md0/home/txino/Zauber/zynthian/kicad/zynthian_allinone/zynthian_allinone.sch</source>
-    <date>mié 19 jul 2017 03:59:43 CEST</date>
-    <tool>Eeschema 4.0.2-1.fc23-product</tool>
+    <source>/home/txino/Zauber/zynthian/zynthian-hw/zynthian_allinone/zynthian_allinone.sch</source>
+    <date>Fri 01 Jun 2018 12:06:08 CEST</date>
+    <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Zynthian AllInOne circuit</title>
@@ -105,7 +105,7 @@
     </comp>
     <comp ref="D2">
       <value>1N5819</value>
-      <footprint>Discret:D3</footprint>
+      <footprint>Discret:D4</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5919E092</tstamp>
@@ -229,6 +229,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591ACB40</tstamp>
     </comp>
+    <comp ref="SW-1">
+      <value>SW1</value>
+      <footprint>Connectors_JST:JST_XH_B05B-XH-A_05x2.50mm_Straight</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B111921</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="device" part="C">
@@ -256,6 +263,26 @@
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector, single row, 01x05, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_02X20">
@@ -429,275 +456,280 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(MIDI-1-Pad3)">
-      <node ref="R1" pin="2"/>
-      <node ref="MIDI-1" pin="3"/>
+    <net code="1" name="+5V">
+      <node ref="RBPi-1" pin="4"/>
+      <node ref="OC2" pin="6"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="RBPi-1" pin="2"/>
+      <node ref="OC3" pin="6"/>
+      <node ref="C2" pin="1"/>
+      <node ref="MCP23017" pin="18"/>
+      <node ref="OC1" pin="6"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="MCP23017" pin="9"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="RBPi-1" pin="25"/>
-      <node ref="C2" pin="2"/>
-      <node ref="OC3" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="MIDI-3" pin="4"/>
-      <node ref="RBPi-1" pin="34"/>
+    <net code="2" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="MIDI-2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="3" name="GND">
       <node ref="RBPi-1" pin="14"/>
       <node ref="RBPi-1" pin="30"/>
       <node ref="RBPi-1" pin="20"/>
-      <node ref="RBPi-1" pin="9"/>
-      <node ref="MIDI-2" pin="4"/>
+      <node ref="RBPi-1" pin="34"/>
+      <node ref="SW-1" pin="1"/>
       <node ref="OC3" pin="5"/>
       <node ref="C4" pin="2"/>
+      <node ref="OC3" pin="2"/>
+      <node ref="MIDI-3" pin="4"/>
+      <node ref="C3" pin="2"/>
       <node ref="MIDI-3" pin="2"/>
-      <node ref="OC2" pin="5"/>
-      <node ref="OC2" pin="2"/>
-      <node ref="MCP23017" pin="16"/>
-      <node ref="OC1" pin="5"/>
+      <node ref="RBPi-1" pin="25"/>
       <node ref="MCP23017" pin="17"/>
+      <node ref="OC1" pin="5"/>
       <node ref="CTRL-2" pin="1"/>
       <node ref="CTRL-4" pin="1"/>
       <node ref="CTRL-3" pin="1"/>
       <node ref="CTRL-1" pin="1"/>
-      <node ref="RBPi-1" pin="6"/>
+      <node ref="RBPi-1" pin="9"/>
       <node ref="RBPi-1" pin="39"/>
       <node ref="MCP23017" pin="15"/>
       <node ref="MCP23017" pin="10"/>
-      <node ref="MIDI-2" pin="2"/>
+      <node ref="MCP23017" pin="16"/>
+      <node ref="RBPi-1" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="MIDI-2" pin="4"/>
+      <node ref="OC2" pin="2"/>
       <node ref="C1" pin="2"/>
+      <node ref="MIDI-2" pin="2"/>
+      <node ref="OC2" pin="5"/>
     </net>
-    <net code="3" name="Net-(D1-Pad1)">
-      <node ref="R2" pin="2"/>
-      <node ref="R1" pin="1"/>
+    <net code="4" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1"/>
+      <node ref="R2" pin="2"/>
       <node ref="MIDI-1" pin="1"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="4" name="+5V">
-      <node ref="C2" pin="1"/>
-      <node ref="R8" pin="2"/>
-      <node ref="OC1" pin="6"/>
-      <node ref="RBPi-1" pin="2"/>
-      <node ref="MCP23017" pin="9"/>
-      <node ref="R5" pin="2"/>
-      <node ref="RBPi-1" pin="4"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="MCP23017" pin="18"/>
-      <node ref="C1" pin="1"/>
-      <node ref="OC3" pin="6"/>
-      <node ref="R3" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="OC2" pin="6"/>
+    <net code="5" name="Net-(OC2-Pad3)">
+      <node ref="OC2" pin="3"/>
     </net>
-    <net code="5" name="Net-(D2-Pad1)">
-      <node ref="OC1" pin="4"/>
-      <node ref="R4" pin="1"/>
-      <node ref="R3" pin="2"/>
-      <node ref="D2" pin="1"/>
+    <net code="6" name="Net-(MIDI-1-Pad3)">
+      <node ref="MIDI-1" pin="3"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="6" name="Net-(OC1-Pad1)">
-      <node ref="R2" pin="1"/>
-      <node ref="OC1" pin="1"/>
-    </net>
-    <net code="7" name="Net-(CTRL-2-Pad4)">
-      <node ref="CTRL-2" pin="4"/>
-      <node ref="MCP23017" pin="26"/>
-    </net>
-    <net code="8" name="Net-(D3-Pad2)">
-      <node ref="MIDI-2" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="9" name="Net-(D3-Pad1)">
+    <net code="7" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1"/>
       <node ref="MIDI-2" pin="3"/>
-      <node ref="R6" pin="1"/>
       <node ref="OC2" pin="4"/>
+      <node ref="R6" pin="1"/>
     </net>
-    <net code="10" name="Net-(CTRL-4-Pad2)">
-      <node ref="MCP23017" pin="4"/>
-      <node ref="CTRL-4" pin="2"/>
-    </net>
-    <net code="11" name="Net-(CTRL-3-Pad4)">
+    <net code="8" name="Net-(CTRL-3-Pad4)">
       <node ref="CTRL-3" pin="4"/>
       <node ref="MCP23017" pin="3"/>
     </net>
-    <net code="12" name="Net-(CTRL-3-Pad3)">
-      <node ref="MCP23017" pin="2"/>
-      <node ref="CTRL-3" pin="3"/>
-    </net>
-    <net code="13" name="Net-(CTRL-3-Pad2)">
-      <node ref="MCP23017" pin="1"/>
-      <node ref="CTRL-3" pin="2"/>
-    </net>
-    <net code="14" name="Net-(CTRL-1-Pad3)">
-      <node ref="CTRL-1" pin="3"/>
-      <node ref="MCP23017" pin="22"/>
-    </net>
-    <net code="15" name="Net-(CTRL-2-Pad3)">
-      <node ref="CTRL-2" pin="3"/>
-      <node ref="MCP23017" pin="25"/>
-    </net>
-    <net code="16" name="Net-(CTRL-2-Pad2)">
-      <node ref="CTRL-2" pin="2"/>
-      <node ref="MCP23017" pin="24"/>
-    </net>
-    <net code="17" name="Net-(CTRL-1-Pad4)">
-      <node ref="CTRL-1" pin="4"/>
-      <node ref="MCP23017" pin="23"/>
-    </net>
-    <net code="18" name="Net-(CTRL-1-Pad2)">
-      <node ref="MCP23017" pin="21"/>
+    <net code="9" name="Net-(CTRL-1-Pad2)">
       <node ref="CTRL-1" pin="2"/>
+      <node ref="MCP23017" pin="21"/>
     </net>
-    <net code="19" name="Net-(CTRL-4-Pad4)">
+    <net code="10" name="Net-(CTRL-4-Pad4)">
       <node ref="CTRL-4" pin="4"/>
       <node ref="MCP23017" pin="6"/>
     </net>
-    <net code="20" name="Net-(CTRL-4-Pad3)">
+    <net code="11" name="Net-(CTRL-4-Pad3)">
       <node ref="CTRL-4" pin="3"/>
       <node ref="MCP23017" pin="5"/>
     </net>
-    <net code="21" name="+3V3">
+    <net code="12" name="Net-(CTRL-4-Pad2)">
+      <node ref="MCP23017" pin="4"/>
+      <node ref="CTRL-4" pin="2"/>
+    </net>
+    <net code="13" name="Net-(CTRL-3-Pad3)">
+      <node ref="CTRL-3" pin="3"/>
+      <node ref="MCP23017" pin="2"/>
+    </net>
+    <net code="14" name="Net-(CTRL-3-Pad2)">
+      <node ref="MCP23017" pin="1"/>
+      <node ref="CTRL-3" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="OC1" pin="4"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="16" name="Net-(OC1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="OC1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(CTRL-2-Pad4)">
+      <node ref="CTRL-2" pin="4"/>
+      <node ref="MCP23017" pin="26"/>
+    </net>
+    <net code="18" name="Net-(CTRL-2-Pad3)">
+      <node ref="CTRL-2" pin="3"/>
+      <node ref="MCP23017" pin="25"/>
+    </net>
+    <net code="19" name="Net-(CTRL-2-Pad2)">
+      <node ref="MCP23017" pin="24"/>
+      <node ref="CTRL-2" pin="2"/>
+    </net>
+    <net code="20" name="Net-(CTRL-1-Pad4)">
+      <node ref="CTRL-1" pin="4"/>
+      <node ref="MCP23017" pin="23"/>
+    </net>
+    <net code="21" name="Net-(CTRL-1-Pad3)">
+      <node ref="MCP23017" pin="22"/>
+      <node ref="CTRL-1" pin="3"/>
+    </net>
+    <net code="22" name="/INTB">
+      <node ref="RBPi-1" pin="37"/>
+      <node ref="MCP23017" pin="19"/>
+    </net>
+    <net code="23" name="/INTA">
+      <node ref="MCP23017" pin="20"/>
+      <node ref="RBPi-1" pin="36"/>
+    </net>
+    <net code="24" name="/MIDI-OUT">
+      <node ref="RBPi-1" pin="8"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="25" name="+3V3">
       <node ref="RBPi-1" pin="1"/>
       <node ref="RBPi-1" pin="17"/>
       <node ref="R10" pin="1"/>
     </net>
-    <net code="22" name="Net-(OC3-Pad1)">
-      <node ref="OC3" pin="1"/>
+    <net code="26" name="Net-(OC3-Pad1)">
       <node ref="R9" pin="2"/>
+      <node ref="OC3" pin="1"/>
     </net>
-    <net code="23" name="/MIDI-OUT">
-      <node ref="R9" pin="1"/>
-      <node ref="RBPi-1" pin="8"/>
+    <net code="27" name="Net-(MCP23017-Pad28)">
+      <node ref="SW-1" pin="3"/>
+      <node ref="MCP23017" pin="28"/>
     </net>
-    <net code="24" name="/INTB">
-      <node ref="RBPi-1" pin="37"/>
-      <node ref="MCP23017" pin="19"/>
+    <net code="28" name="Net-(MCP23017-Pad8)">
+      <node ref="MCP23017" pin="8"/>
+      <node ref="SW-1" pin="5"/>
     </net>
-    <net code="25" name="Net-(OC3-Pad3)">
+    <net code="29" name="Net-(MCP23017-Pad7)">
+      <node ref="SW-1" pin="4"/>
+      <node ref="MCP23017" pin="7"/>
+    </net>
+    <net code="30" name="Net-(MCP23017-Pad27)">
+      <node ref="MCP23017" pin="27"/>
+      <node ref="SW-1" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D4-Pad2)">
+      <node ref="MIDI-3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="32" name="Net-(OC3-Pad3)">
       <node ref="OC3" pin="3"/>
     </net>
-    <net code="26" name="/INTA">
-      <node ref="RBPi-1" pin="36"/>
-      <node ref="MCP23017" pin="20"/>
-    </net>
-    <net code="27" name="Net-(OC2-Pad3)">
-      <node ref="OC2" pin="3"/>
-    </net>
-    <net code="28" name="Net-(D4-Pad1)">
+    <net code="33" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
       <node ref="MIDI-3" pin="3"/>
       <node ref="OC3" pin="4"/>
       <node ref="R8" pin="1"/>
-      <node ref="D4" pin="1"/>
     </net>
-    <net code="29" name="Net-(D4-Pad2)">
-      <node ref="MIDI-3" pin="1"/>
-      <node ref="D4" pin="2"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="30" name="Net-(RBPi-1-Pad32)">
-      <node ref="RBPi-1" pin="32"/>
-    </net>
-    <net code="31" name="Net-(RBPi-1-Pad26)">
-      <node ref="RBPi-1" pin="26"/>
-    </net>
-    <net code="32" name="Net-(RBPi-1-Pad16)">
-      <node ref="RBPi-1" pin="16"/>
-    </net>
-    <net code="33" name="Net-(RBPi-1-Pad35)">
-      <node ref="RBPi-1" pin="35"/>
-    </net>
-    <net code="34" name="Net-(RBPi-1-Pad15)">
-      <node ref="RBPi-1" pin="15"/>
-    </net>
-    <net code="35" name="Net-(RBPi-1-Pad24)">
-      <node ref="RBPi-1" pin="24"/>
-    </net>
-    <net code="36" name="Net-(RBPi-1-Pad33)">
+    <net code="34" name="Net-(RBPi-1-Pad33)">
       <node ref="RBPi-1" pin="33"/>
     </net>
-    <net code="37" name="Net-(RBPi-1-Pad23)">
-      <node ref="RBPi-1" pin="23"/>
-    </net>
-    <net code="38" name="Net-(RBPi-1-Pad13)">
-      <node ref="RBPi-1" pin="13"/>
-    </net>
-    <net code="39" name="Net-(RBPi-1-Pad22)">
-      <node ref="RBPi-1" pin="22"/>
-    </net>
-    <net code="40" name="Net-(RBPi-1-Pad12)">
-      <node ref="RBPi-1" pin="12"/>
-    </net>
-    <net code="41" name="Net-(RBPi-1-Pad31)">
-      <node ref="RBPi-1" pin="31"/>
-    </net>
-    <net code="42" name="Net-(RBPi-1-Pad21)">
-      <node ref="RBPi-1" pin="21"/>
-    </net>
-    <net code="43" name="Net-(RBPi-1-Pad11)">
-      <node ref="RBPi-1" pin="11"/>
-    </net>
-    <net code="44" name="Net-(RBPi-1-Pad40)">
-      <node ref="RBPi-1" pin="40"/>
-    </net>
-    <net code="45" name="Net-(RBPi-1-Pad7)">
-      <node ref="RBPi-1" pin="7"/>
-    </net>
-    <net code="46" name="Net-(RBPi-1-Pad29)">
-      <node ref="RBPi-1" pin="29"/>
-    </net>
-    <net code="47" name="Net-(RBPi-1-Pad19)">
-      <node ref="RBPi-1" pin="19"/>
-    </net>
-    <net code="48" name="Net-(RBPi-1-Pad38)">
-      <node ref="RBPi-1" pin="38"/>
-    </net>
-    <net code="49" name="Net-(RBPi-1-Pad28)">
-      <node ref="RBPi-1" pin="28"/>
-    </net>
-    <net code="50" name="Net-(RBPi-1-Pad18)">
-      <node ref="RBPi-1" pin="18"/>
-    </net>
-    <net code="51" name="Net-(RBPi-1-Pad27)">
+    <net code="35" name="Net-(RBPi-1-Pad27)">
       <node ref="RBPi-1" pin="27"/>
     </net>
-    <net code="52" name="Net-(MCP23017-Pad7)">
-      <node ref="MCP23017" pin="7"/>
+    <net code="36" name="Net-(RBPi-1-Pad26)">
+      <node ref="RBPi-1" pin="26"/>
     </net>
-    <net code="53" name="Net-(MCP23017-Pad8)">
-      <node ref="MCP23017" pin="8"/>
+    <net code="37" name="Net-(RBPi-1-Pad16)">
+      <node ref="RBPi-1" pin="16"/>
     </net>
-    <net code="54" name="Net-(MCP23017-Pad12)">
+    <net code="38" name="Net-(RBPi-1-Pad35)">
+      <node ref="RBPi-1" pin="35"/>
+    </net>
+    <net code="39" name="Net-(RBPi-1-Pad15)">
+      <node ref="RBPi-1" pin="15"/>
+    </net>
+    <net code="40" name="Net-(RBPi-1-Pad24)">
+      <node ref="RBPi-1" pin="24"/>
+    </net>
+    <net code="41" name="Net-(RBPi-1-Pad18)">
+      <node ref="RBPi-1" pin="18"/>
+    </net>
+    <net code="42" name="Net-(RBPi-1-Pad23)">
+      <node ref="RBPi-1" pin="23"/>
+    </net>
+    <net code="43" name="Net-(RBPi-1-Pad13)">
+      <node ref="RBPi-1" pin="13"/>
+    </net>
+    <net code="44" name="Net-(RBPi-1-Pad32)">
+      <node ref="RBPi-1" pin="32"/>
+    </net>
+    <net code="45" name="Net-(RBPi-1-Pad22)">
+      <node ref="RBPi-1" pin="22"/>
+    </net>
+    <net code="46" name="Net-(RBPi-1-Pad12)">
+      <node ref="RBPi-1" pin="12"/>
+    </net>
+    <net code="47" name="Net-(RBPi-1-Pad31)">
+      <node ref="RBPi-1" pin="31"/>
+    </net>
+    <net code="48" name="Net-(RBPi-1-Pad21)">
+      <node ref="RBPi-1" pin="21"/>
+    </net>
+    <net code="49" name="Net-(RBPi-1-Pad11)">
+      <node ref="RBPi-1" pin="11"/>
+    </net>
+    <net code="50" name="Net-(RBPi-1-Pad40)">
+      <node ref="RBPi-1" pin="40"/>
+    </net>
+    <net code="51" name="Net-(RBPi-1-Pad29)">
+      <node ref="RBPi-1" pin="29"/>
+    </net>
+    <net code="52" name="Net-(RBPi-1-Pad19)">
+      <node ref="RBPi-1" pin="19"/>
+    </net>
+    <net code="53" name="Net-(RBPi-1-Pad38)">
+      <node ref="RBPi-1" pin="38"/>
+    </net>
+    <net code="54" name="Net-(RBPi-1-Pad28)">
+      <node ref="RBPi-1" pin="28"/>
+    </net>
+    <net code="55" name="Net-(RBPi-1-Pad7)">
+      <node ref="RBPi-1" pin="7"/>
+    </net>
+    <net code="56" name="Net-(MCP23017-Pad12)">
       <node ref="RBPi-1" pin="5"/>
       <node ref="MCP23017" pin="12"/>
     </net>
-    <net code="55" name="Net-(MCP23017-Pad13)">
+    <net code="57" name="Net-(MCP23017-Pad13)">
       <node ref="MCP23017" pin="13"/>
       <node ref="RBPi-1" pin="3"/>
     </net>
-    <net code="56" name="Net-(MCP23017-Pad28)">
-      <node ref="MCP23017" pin="28"/>
+    <net code="58" name="/MIDI-IN">
+      <node ref="D2" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="RBPi-1" pin="10"/>
     </net>
-    <net code="57" name="Net-(MCP23017-Pad27)">
-      <node ref="MCP23017" pin="27"/>
+    <net code="59" name="/MIDI-THRU">
+      <node ref="R4" pin="2"/>
+      <node ref="OC2" pin="1"/>
     </net>
-    <net code="58" name="Net-(OC1-Pad3)">
+    <net code="60" name="Net-(OC1-Pad3)">
       <node ref="OC1" pin="3"/>
     </net>
-    <net code="59" name="Net-(D1-Pad2)">
-      <node ref="MIDI-1" pin="2"/>
+    <net code="61" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
-      <node ref="MIDI-1" pin="4"/>
       <node ref="OC1" pin="2"/>
-    </net>
-    <net code="60" name="/MIDI-IN">
-      <node ref="RBPi-1" pin="10"/>
-      <node ref="R10" pin="2"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="61" name="/MIDI-THRU">
-      <node ref="OC2" pin="1"/>
-      <node ref="R4" pin="2"/>
+      <node ref="MIDI-1" pin="4"/>
+      <node ref="MIDI-1" pin="2"/>
     </net>
   </nets>
 </export>

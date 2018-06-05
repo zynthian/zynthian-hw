@@ -1,31 +1,25 @@
-Reference, Value, Footprint, Datasheet
-"CTRL-3","CTRL3","Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight",""
-"MCP23017","MCP23017","Housings_DIP:DIP-28_W7.62mm",""
-"RBPi-1","RBPi GPIO","Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm",""
-"CTRL-1","CTRL1","Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight",""
-"CTRL-2","CTRL2","Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight",""
-"CTRL-4","CTRL4","Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight",""
-"OC1","H11L1","Housings_DIP:DIP-6_W7.62mm",""
-"D1","1N4148","Discret:D3",""
-"R1","100","Discret:R4",""
-"R2","470","Discret:R4",""
-"R3","1K","Discret:R4",""
-"R4","1K","Discret:R4",""
-"D2","1N5819","Discret:D3",""
-"MIDI-1","MIDI-IN","Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight",""
-"MIDI-2","MIDI-THRU","Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight",""
-"C1","100n","Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm",""
-"R6","470","Discret:R4",""
-"R5","4K7","Discret:R4",""
-"D3","1N4148","Discret:D3",""
-"C2","100n","Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm",""
-"OC2","H11L1","Housings_DIP:DIP-6_W7.62mm",""
-"MIDI-3","MIDI-OUT","Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight",""
-"R7","4K7","Discret:R4",""
-"D4","1N4148","Discret:D3",""
-"R8","470","Discret:R4",""
-"C3","100n","Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm",""
-"OC3","H11L1","Housings_DIP:DIP-6_W7.62mm",""
-"R9","1K","Discret:R4",""
-"R10","10K","Discret:R4",""
-"C4","100n","Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm",""
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"REF***";"OSHW-Logo2_9.8x8mm_Mask";1;"OSHW-Logo2_9.8x8mm_Copper";;;
+2;"RBPi-1";"Pin_Header_Straight_2x20_Pitch2.54mm";1;"RBPi GPIO";;;
+3;"MCP23017";"DIP-28_W7.62mm";1;"MCP23017";;;
+4;"OC1,OC2,OC3";"DIP-6_W7.62mm";3;"H11L1";;;
+5;"C1,C2,C3,C4";"C_Disc_D3.0mm_W1.6mm_P2.50mm";4;"100n";;;
+6;"R1";"R4";1;"100";;;
+7;"R2,R6,R8";"R4";3;"470";;;
+8;"R3,R4,R9";"R4";3;"1K";;;
+9;"R5,R7";"R4";2;"4K7";;;
+10;"R10";"R4";1;"10K";;;
+11;"D1,D3,D4";"D3";3;"1N4148";;;
+12;"MH1,MH3,MH2,MH4";"MountingHole_2.7mm_M2.5_DIN965";4;"MountingHole_2.7mm_M2.5_DIN965";;;
+13;"CTRL-1";"JST_XH_B04B-XH-A_04x2.50mm_Straight";1;"CTRL1";;;
+14;"CTRL-2";"JST_XH_B04B-XH-A_04x2.50mm_Straight";1;"CTRL2";;;
+15;"CTRL-3";"JST_XH_B04B-XH-A_04x2.50mm_Straight";1;"CTRL3";;;
+16;"CTRL-4";"JST_XH_B04B-XH-A_04x2.50mm_Straight";1;"CTRL4";;;
+17;"MIDI-1";"JST_XH_B04B-XH-A_04x2.50mm_Straight";1;"MIDI-IN";;;
+18;"MIDI-2";"JST_XH_B04B-XH-A_04x2.50mm_Straight";1;"MIDI-THRU";;;
+19;"MIDI-3";"JST_XH_B04B-XH-A_04x2.50mm_Straight";1;"MIDI-OUT";;;
+20;"REF***";"OSHW-Logo2_9.8x8mm_Copper";1;"OSHW-Logo2_9.8x8mm_Copper";;;
+21;"REF***";"OSHW-Logo2_9.8x8mm_SilkScreen";1;"OSHW-Logo2_9.8x8mm_SilkScreen";;;
+22;"D2";"D4";1;"1N5819";;;
+23;"SW-1";"JST_XH_B05B-XH-A_05x2.50mm_Straight";1;"SW1";;;
+24;"G***";"LOGO_ZYNTHIAN_Mask";1;"Zynthian Logo";;;
