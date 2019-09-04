@@ -1,13 +1,13 @@
 # Zynthian Hardware
 
-[Zynthian] (http://zynthian.org) is an Open Synth Platform based in Raspberry Pi, Linux (Raspbian) and Open Software Synthesizers.
+[Zynthian](http://zynthian.org) is an Open Synth Platform based in Raspberry Pi, Linux (Raspbian) and Open Software Synthesizers.
 
 ![Image of Zynthian Box Design](http://zynthian.org/img/github/zynthian_v3_backside.jpg)
 
 This repository contains the Hardware Stuff: PCBs, schemes, parts specifications, pin assignment, ...
-You can find useful information about [building a Zynthian Box in the Blog] (http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/)
+You can find useful information about [building a Zynthian Box in the Blog](http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/)
 
-A [Zynthian Box] (http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/) is a hardware device that complains the [Zynthian Hardware Specificacion] (http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/):
+A [Zynthian Box](http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/) is a hardware device that complains the [Zynthian Hardware Specificacion] (http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/):
 
 + Raspberry Pi 2
 + HifiBerry DAC+
