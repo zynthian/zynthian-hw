@@ -15,7 +15,7 @@ A [Zynthian Box] (http://blog.zynthian.org/index.php/2015/11/22/building-a-zynth
 + Zynthian Controller Modules
 + Zynthian MIDI + GPIO expander module
 
-![Image of Zynthian Hardware Architecture](http://zynthian.org/img/github/zynthian_hardware_scheme.png)
+![Image of Zynthian Hardware Architecture](http://zynthian.org/img/github/zynthian_hardware_scheme_v2.png)
 
 ![Image of a Zynthian Box](http://zynthian.org/img/github/zynthian-prototype2-01.jpg)
 
