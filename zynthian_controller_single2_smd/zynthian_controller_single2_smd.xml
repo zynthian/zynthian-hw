@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/txino/Zauber/zynthian/zynthian-hw/zynthian_controller_single2_smd/zynthian_controller_single2_smd.sch</source>
+    <date>mié 27 feb 2019 20:26:21 CET</date>
+    <tool>Eeschema 5.0.2-5.fc29</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>zynthian_controller_single2_smd.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW1">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <libsource lib="zynthian_controller_single2_smd-rescue" part="Rotary_Encoder_Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA2882F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="zynthian_controller_single2_smd-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA28DB9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X04</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <libsource lib="zynthian_controller_single2_smd-rescue" part="CONN_01X04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA291E6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="zynthian_controller_single2_smd-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA29ADD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="zynthian_controller_single2_smd-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA29B55</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="zynthian_controller_single2_smd-rescue" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="zynthian_controller_single2_smd-rescue" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="zynthian_controller_single2_smd-rescue" part="Rotary_Encoder_Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="zynthian_controller_single2_smd-rescue">
+      <uri>/home/txino/Zauber/zynthian/zynthian-hw/zynthian_controller_single2_smd/zynthian_controller_single2_smd-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CON-1">
+      <node ref="J1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="2" name="CON-2">
+      <node ref="C2" pin="1"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="CON-4">
+      <node ref="J1" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="4" name="CON-3">
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="SW1" pin="4"/>
+    </net>
+  </nets>
+</export>

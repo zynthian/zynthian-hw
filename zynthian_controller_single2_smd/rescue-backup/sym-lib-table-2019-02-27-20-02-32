@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name zynthian_controller_single2_smd-rescue)(type Legacy)(uri ${KIPRJMOD}/zynthian_controller_single2_smd-rescue.lib)(options "")(descr ""))
+)

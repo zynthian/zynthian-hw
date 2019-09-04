@@ -1,0 +1,24 @@
+Drill report for /home/txino/Zauber/zynthian/zynthian-hw/zynthian_controller_single2_smd/zynthian_controller_single2_smd.kicad_pcb
+Created on Tue 25 Sep 2018 18:00:34 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'zynthian_controller_single2_smd.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (2 holes)
+    T2  1.00mm  0.039"  (9 holes)
+    T3  1.50mm  0.059"  (2 holes)  (with 2 slots)
+
+    Total plated holes count 13
+
+
+Drill file 'zynthian_controller_single2_smd-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
