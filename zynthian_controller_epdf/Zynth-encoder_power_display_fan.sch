@@ -288,10 +288,10 @@ Text Label 9690 2140 0    50   ~ 0
 GND
 Text Notes 9690 1840 0    50   ~ 0
 Pattern for PCB Male Spade Connectors\nWith Reverse voltage and Fuse protection
-Text Label 800  3850 0    50   ~ 0
+Text Label 800  2850 0    50   ~ 0
 PWM_FAN_1
 Wire Wire Line
-	800  3850 2000 3850
+	800  2850 2000 2850
 Connection ~ 6530 3300
 Wire Wire Line
 	6530 3300 6530 3450
@@ -317,10 +317,10 @@ Wire Wire Line
 	1940 9960 1240 9960
 Text Label 1240 9960 0    50   ~ 0
 PWM_FAN_1
-Text Label 4400 3750 2    50   ~ 0
+Text Label 4400 2750 2    50   ~ 0
 PWM_FAN_2
 Wire Wire Line
-	4400 3750 3200 3750
+	4400 2750 3200 2750
 Text Label 10790 2140 0    50   ~ 0
 GNDin
 $Comp
@@ -370,8 +370,6 @@ Connection ~ 9990 3090
 Wire Wire Line
 	9990 2240 9990 2140
 Connection ~ 9990 2140
-Wire Wire Line
-	2000 3950 800  3950
 Connection ~ 11190 3090
 Wire Wire Line
 	11190 3090 11190 3140
@@ -888,10 +886,6 @@ Wire Wire Line
 	10580 7700 10480 7700
 Text Label 11830 8250 0    50   ~ 0
 P5V_HAT
-Text Label 12330 7900 2    50   ~ 0
-GSW4
-Wire Wire Line
-	12330 7900 11980 7900
 Text Label 12330 7800 2    50   ~ 0
 GSW3
 Wire Wire Line
@@ -1161,8 +1155,6 @@ Text Notes 11060 5220 0    118  ~ 24
 GPIO Expander
 Text Notes 5460 4730 0    118  ~ 24
 Status LED and Reboot
-Text Notes 5470 5310 0    50   ~ 0
-JST Connector for Reboot GPIO 3 -> GND and LED Act.\nCut Solder bridge if issue with SCK to disable reboot sw.\n\nAdd the following to Display Config to make persistent HW kit change:\n#Setup act light, and dedicated power button\ndtoverlay=pi3-act-led,activelow=off,gpio=24\n
 $Comp
 L power:GND #PWR0109
 U 1 1 5E4A7F05
@@ -1175,8 +1167,8 @@ F 3 "" H 6520 5830 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  2750 2000 2750
-Text Label 800  2750 0    50   ~ 0
+	800  2550 2000 2550
+Text Label 800  2550 0    50   ~ 0
 ACT_LED
 $Comp
 L Jumper:SolderJumper_2_Bridged JP1
@@ -1219,10 +1211,10 @@ L Device:R R19
 U 1 1 5E614AC9
 P 6120 5680
 F 0 "R19" V 6220 5660 50  0000 C CNN
-F 1 "1K" V 6120 5680 50  0000 C CNN
+F 1 "200" V 6120 5680 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6050 5680 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1001T5E_C21190.pdf" H 6120 5680 50  0001 C CNN
-F 4 "C21190" H 6120 5680 50  0001 C CNN "LCSC"
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081715_UNI-ROYAL-Uniroyal-Elec-0603WAJ0201T5E_C25217.pdf" H 6120 5680 50  0001 C CNN
+F 4 "C25217" H 6120 5680 50  0001 C CNN "LCSC"
 	1    6120 5680
 	0    1    1    0   
 $EndComp
@@ -1316,4 +1308,30 @@ Wire Wire Line
 	12180 8390 11830 8390
 Text Label 11830 8390 0    50   ~ 0
 GND
+NoConn ~ 2000 3950
+NoConn ~ 3200 4150
+NoConn ~ 3200 4050
+NoConn ~ 3200 3450
+NoConn ~ 3200 3350
+NoConn ~ 3200 3250
+NoConn ~ 3200 3050
+NoConn ~ 3200 2650
+NoConn ~ 3200 2550
+NoConn ~ 2000 3750
+NoConn ~ 2000 3650
+NoConn ~ 2000 3350
+NoConn ~ 2000 3250
+NoConn ~ 2000 3150
+NoConn ~ 2000 3050
+NoConn ~ 2000 2950
+NoConn ~ 11980 7900
+Text Notes 3240 2580 0    50   ~ 0
+TXD0
+Text Notes 3240 2690 0    50   ~ 0
+RXD0
+NoConn ~ 2000 2750
+NoConn ~ 2000 3850
+NoConn ~ 3200 3750
+Text Notes 5470 5310 0    50   ~ 0
+JST Connector for Reboot GPIO 3 -> GND and LED Act.\nCut Solder bridge if issue with SCK to disable reboot sw.\n\nAdd the following to Display Config to make persistent HW kit change:\n#Setup act light, and dedicated power button\ndtoverlay=pi3-act-led,activelow=off,gpio=4\n
 $EndSCHEMATC
