@@ -1155,8 +1155,6 @@ Text Notes 11060 5220 0    118  ~ 24
 GPIO Expander
 Text Notes 5460 4730 0    118  ~ 24
 Status LED and Reboot
-Text Notes 5470 5310 0    50   ~ 0
-JST Connector for Reboot GPIO 3 -> GND and LED Act.\nCut Solder bridge if issue with SCK to disable reboot sw.\n\nAdd the following to Display Config to make persistent HW kit change:\n#Setup act light, and dedicated power button\ndtoverlay=pi3-act-led,activelow=off,gpio=24\n
 $Comp
 L power:GND #PWR0109
 U 1 1 5E4A7F05
@@ -1334,4 +1332,6 @@ RXD0
 NoConn ~ 2000 2750
 NoConn ~ 2000 3850
 NoConn ~ 3200 3750
+Text Notes 5470 5310 0    50   ~ 0
+JST Connector for Reboot GPIO 3 -> GND and LED Act.\nCut Solder bridge if issue with SCK to disable reboot sw.\n\nAdd the following to Display Config to make persistent HW kit change:\n#Setup act light, and dedicated power button\ndtoverlay=pi3-act-led,activelow=off,gpio=4\n
 $EndSCHEMATC

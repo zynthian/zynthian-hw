@@ -1,25 +1,26 @@
-Comment,Designator,Footprint,LCSC, LCSC
-"5V Power","+5V_in1","Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm",""
-"100n","C1","Capacitor_SMD:C_0603_1608Metric","","C14663"
-"100u","C2","Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H","","C16133"
-"RED LED","D5","LED_SMD:LED_0603_1608Metric","","C2286"
-"Conn_01x05_Male","E5,E4,E3,E2,E1","Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical",""
-"SolderJumper_3_Bridged12","FAN1,A2,A1,A0","Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels",""
-"GND","GND_in1","Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm",""
-"3mm_Mounting_Hole","H1,H2,H3,H4,H5,H6","project_footprints:NPTH_3mm_ID",""
-"40HAT","J3","Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical",""
-"SolderJumper_2_Bridged","JP1","Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",""
-"Conn_01x03_Male","PWR1","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",""
-"Conn_01x02_Male","PWR3,PWR2","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",""
-"DMG2305UX","Q1","Package_TO_SOT_SMD:SOT-23","","C144153"
-"DMMT5401","Q2","Package_TO_SOT_SMD:SOT-23-6","","C154733"
-"Q_NMOS_GDS","Q3","Package_TO_SOT_SMD:TO-252-2","","C150550"
-"10K","R10,R17,R15","Resistor_SMD:R_0603_1608Metric","","C25804"
-"47K","R11","Resistor_SMD:R_0603_1608Metric","","C25819"
-"1K","R12,R19,R18","Resistor_SMD:R_0603_1608Metric","","C21190"
-"3.9K","R14,R13","Resistor_SMD:R_0603_1608Metric","","C23018"
-"100","R16","Resistor_SMD:R_0805_2012Metric","","C17408"
-"100K","R20","Resistor_SMD:R_0603_1608Metric","","C25803"
-"SolderJumper_2_Open","SJ1","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",""
-"CAT24C32","U2","Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm","","C81193"
-"MCP23017_SS","U3","Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm","","C47023"
+Comment,Designator,Footprint, LCSC
+5V Power,+5V_in1,Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm,
+100n,C1,Capacitor_SMD:C_0603_1608Metric,C14663
+100u,C2,Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H,C16133
+RED LED,D5,LED_SMD:LED_0603_1608Metric,C2286
+Conn_01x05_Male,"E5,E4,E3,E2,E1",Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical,
+SolderJumper_3_Bridged12,"FAN1,A2,A1,A0",Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels,
+GND,GND_in1,Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm,
+3mm_Mounting_Hole,"H1,H2,H3,H4,H5,H6",project_footprints:NPTH_3mm_ID,
+40HAT,J3,Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical,
+SolderJumper_2_Bridged,JP1,Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,
+Conn_01x03_Male,PWR1,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,
+Conn_01x02_Male,"PWR3,PWR2",Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
+DMG2305UX,Q1,Package_TO_SOT_SMD:SOT-23,C144153
+DMMT5401,Q2,Package_TO_SOT_SMD:SOT-23-6,C154733
+Q_NMOS_GDS,Q3,Package_TO_SOT_SMD:TO-252-2,C150550
+10K,"R10,R17,R15",Resistor_SMD:R_0603_1608Metric,C25804
+47K,R11,Resistor_SMD:R_0603_1608Metric,C25819
+1K,"R12,R18",Resistor_SMD:R_0603_1608Metric,C21190
+3.9K,"R14,R13",Resistor_SMD:R_0603_1608Metric,C23018
+100,R16,Resistor_SMD:R_0805_2012Metric,C17408
+200,R19,Resistor_SMD:R_0603_1608Metric,C8218
+100K,R20,Resistor_SMD:R_0603_1608Metric,C25803
+SolderJumper_2_Open,SJ1,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,
+CAT24C32,U2,Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm,C81193
+MCP23017_SS,U3,Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm,C47023
