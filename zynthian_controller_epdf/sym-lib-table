@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name raspberrypi_hat)(type Legacy)(uri ${KIPRJMOD}/project_components/raspberrypi_hat.lib)(options "")(descr ""))
+  (lib (name aod4184a)(type Legacy)(uri ${KIPRJMOD}/project_components/aod4184a.lib)(options "")(descr ""))
+  (lib (name Zynth-encoder_power_display_fan-rescue)(type Legacy)(uri ${KIPRJMOD}/Zynth-encoder_power_display_fan-rescue.lib)(options "")(descr ""))
+)

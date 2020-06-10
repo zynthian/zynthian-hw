@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AOD4184A
+D 40V, N-Channel MOSFET, TO252
+K N-Channel MOSFET
+F https://html.alldatasheet.com/html-pdf/485385/AOSMD/D4184/148/1/D4184.html
+$ENDCMP
+#
+$CMP FDS6892A_copy
+D 7.5A Id, 20V Vds, Dual N-Channel MOSFET PWM Optimized, 18mOhm Ron, SO-8
+K Dual N-Channel MOSFET Low Gate Charge
+F http://www.fairchildsemi.com/ds/FD/FDS6892A.pdf
+$ENDCMP
+#
+$CMP FDS6898A_copy
+D 9.4A Id, 20V Vds, Dual N-Channel MOSFET, 14mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
+$ENDCMP
+#
+$CMP FDS6930A_copy
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 40mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6930A-D.PDF
+$ENDCMP
+#
+$CMP FDS6930B_copy
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 38mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6930B-D.PDF
+$ENDCMP
+#
+$CMP FDS9926A_copy
+D 6.5A Id, 20V Vds, Dual N-Channel MOSFET, 30mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf
+$ENDCMP
+#
+$CMP STS2DNE60_copy
+D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F https://www.st.com/resource/en/datasheet/CD00001537.pdf
+$ENDCMP
+#
+#End Doc Library
