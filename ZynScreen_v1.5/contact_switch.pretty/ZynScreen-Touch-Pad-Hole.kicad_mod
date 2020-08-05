@@ -1,0 +1,11 @@
+(module ZynScreen-Touch-Pad-Hole (layer F.Cu) (tedit 5EB972B9)
+  (descr "1.2mm hole")
+  (tags hole)
+  (fp_text reference 1.2mm_touchpad (at 13.436 -5.535 90) (layer F.SilkS) hide
+    (effects (font (size 1.216 1.216) (thickness 0.254)))
+  )
+  (fp_text value P*** (at -4.39928 -2.07518) (layer F.SilkS) hide
+    (effects (font (size 1.216 1.216) (thickness 0.254)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.29982 1.29982) (drill 1.20076) (layers *.Cu *.Mask F.SilkS))
+)

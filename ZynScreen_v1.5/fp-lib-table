@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name contact_switch)(type KiCad)(uri ${KIPRJMOD}/contact_switch.pretty)(options "")(descr ""))
+  (lib (name hole_rubber_buttons)(type KiCad)(uri ${KIPRJMOD}/hole_rubber_buttons.pretty)(options "")(descr ""))
+  (lib (name zynthian)(type KiCad)(uri ${KIPRJMOD}/zynthian.pretty)(options "")(descr ""))
+)
