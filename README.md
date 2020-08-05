@@ -7,7 +7,7 @@
 This repository contains the Hardware Stuff: PCBs, schemes, parts specifications, pin assignment, ...
 You can find useful information about [building a Zynthian Box in the Blog](http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/)
 
-A [Zynthian Box](http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/) is a hardware device that complains the [Zynthian Hardware Specificacion](http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/):
+A [Zynthian Box](http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/) is a hardware device that adheres the [Zynthian Hardware Specification](http://blog.zynthian.org/index.php/2015/11/22/building-a-zynthian-box/):
 
 + Raspberry Pi 2
 + HifiBerry DAC+
