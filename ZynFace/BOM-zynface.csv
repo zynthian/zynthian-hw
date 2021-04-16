@@ -1,0 +1,5 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,R1,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,"Resistor 10K, thin film, 1%, 1/4W",https://www.digikey.es/product-detail/en/yageo/RT0805FRE0710KL/YAG1239CT-ND/4340592
+2,U1,TSSOP-14_4.4x5mm_P0.65mm,1,TCA9543ADR (I2C Multiplexer),https://www.digikey.com/en/products/detail/texas-instruments/TCA9543APWR/4811480
+3,C1,C_0603_1608Metric,1,"Ceramic Capacitor 100n (0.1 uF), 16V, 10%",https://www.digikey.es/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-2-ND/3886663
+4,Zynaptik-1,PinHeader_2x20_P2.54mm_Vertical,1,"PinHeader 2x20 pins, P2.54mm",

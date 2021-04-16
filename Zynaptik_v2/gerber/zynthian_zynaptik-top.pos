@@ -1,0 +1,39 @@
+### Module positions - created on Wed Dec  2 03:09:27 2020 ###
+### Printed by Pcbnew version kicad 5.1.6-c6e7f7d~87~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val            Package                                              PosX       PosY       Rot  Side
+C1        100n           C_0805_2012Metric                                 80.0100   -26.6700  270.0000  top
+C2        1u             C_0805_2012Metric                                 55.7150   -14.4350  270.0000  top
+C3        1u             C_0805_2012Metric                                 32.4150   -19.7350    0.0000  top
+C4        100n           C_0805_2012Metric                                 21.4150    -9.0350  180.0000  top
+C5        10u            CP_EIA-3216-12_Kemet-S                            46.5150   -13.1350  180.0000  top
+C6        100n           C_0805_2012Metric                                 46.5150   -16.0350  180.0000  top
+D1        1N4148         D_SOD-323F                                        83.1850   -26.6700   90.0000  top
+D2        1N5819         D_SOD-123                                         73.7150    -8.6350  180.0000  top
+FB1       MMZ2012Y152B   R_0805_2012Metric                                 55.0150   -11.7350  180.0000  top
+FB2       MMZ2012Y152B   R_0805_2012Metric                                 55.0150   -17.1350    0.0000  top
+MCP23017  MCP23017       SSOP-28_5.3x10.2mm_P0.65mm                        16.9150   -14.9350   90.0000  top
+MIDI-1    MIDI-IN        JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical    83.1850    -3.1750    0.0000  top
+MIDI-2    MIDI-THRU      JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical    95.2500    -3.1750    0.0000  top
+MIDI-3    MIDI-OUT       JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical   107.3150    -3.1750    0.0000  top
+OC1       H11L1          DIP-6_W8.89mm_SMDSocket_LongPads                  83.1850   -17.7800  270.0000  top
+R1        100            R_0805_2012Metric                                 86.3600   -26.6700   90.0000  top
+R2        470            R_0805_2012Metric                                 86.3600    -9.5250   90.0000  top
+R3        1K             R_0805_2012Metric                                 80.0100    -9.5250   90.0000  top
+R4        330            R_0805_2012Metric                                 95.6310    -9.5250  270.0000  top
+R5        10             R_0805_2012Metric                                 92.2020    -9.5885   90.0000  top
+R6        33             R_0805_2012Metric                                 99.0600    -9.5885  270.0000  top
+R7        330            R_0805_2012Metric                                107.8230    -9.5250  270.0000  top
+R8        10             R_0805_2012Metric                                104.4575    -9.5250   90.0000  top
+R9        33             R_0805_2012Metric                                111.2520    -9.4615  270.0000  top
+R10       10K            R_0603_1608Metric                                 65.6150    -3.4350  270.0000  top
+R11       10K            R_0603_1608Metric                                 28.9150   -17.2225  270.0000  top
+R12       10K            R_0603_1608Metric                                 28.9150   -13.5350  270.0000  top
+R13       4K7            R_0603_1608Metric                                 49.4150   -10.1225   90.0000  top
+R14       4K7            R_0603_1608Metric                                 51.1150   -10.1225   90.0000  top
+R15       10K            R_0603_1608Metric                                 42.8150    -9.8350    0.0000  top
+U1        74LS14         SOIC-14_3.9x8.7mm_P1.27mm                         98.9150   -19.8350   90.0000  top
+U2        ADS1115IDGSR_  VSSOP-10_3x3mm_P0.5mm                             32.1150   -14.9350   90.0000  top
+U3        MCP4728        MSOP-10_3x3mm_P0.5mm                              41.3150   -14.9350  270.0000  top
+## End

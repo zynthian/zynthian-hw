@@ -1,0 +1,26 @@
+Drill report for /home/txino/zynthian/zynthian-hw/ZynFace/ZynFace.kicad_pcb
+Created on dom 10 ene 2021 02:13:19 CET
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ZynFace-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (15 holes)
+    T2  1,00mm  0,039"  (86 holes)
+    T3  1,60mm  0,063"  (16 holes)
+    T4  1,80mm  0,071"  (32 holes)
+    T5  2,50mm  0,098"  (4 holes)
+
+    Total plated holes count 153
+
+
+Drill file 'ZynFace-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

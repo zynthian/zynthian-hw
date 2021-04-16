@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_2x20
+D Raspberry pi connector, double row, 02x20
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

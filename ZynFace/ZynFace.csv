@@ -1,0 +1,15 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"REF**";"OSHW-Symbol_6.7x6mm_SilkScreen";1;"OSHW-Symbol_6.7x6mm_SilkScreen";;;
+2;"REF**,REF**,REF**,REF**";"MountingHole_2.5mm_Pad";4;"MountingHole_2.5mm_Pad";;;
+3;"CV-IN1,CV-IN2,CV-IN3,CV-IN4,Gate-IN1,Gate-IN2,Gate-IN3,Gate-IN4,CV-OUT1,CV-OUT2,CV-OUT3,CV-OUT4,Gate-OUT1,Gate-OUT2,Gate-OUT3,Gate-OUTe";"Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles";16;"AudioJack2_SwitchT";;;
+4;"R1";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"10K";;;
+5;"Zynaptik-1";"PinHeader_2x20_P2.54mm_Vertical";1;"Conn_02x20_Odd_Even";;;
+6;"U1";"TSSOP-14_4.4x5mm_P0.65mm";1;"TCA9543ADR";;;
+7;"TOF1";"PinSocket_1x06_P2.54mm_Horizontal";1;"Conn_01x06_Female";;;
+8;"TOF2";"PinSocket_1x06_P2.54mm_Vertical";1;"Conn_01x06_Female";;;
+9;"AD-1,DA-1";"PinSocket_1x04_P2.54mm_Vertical";2;"Conn_01x04";;;
+10;"GPA-1,GPB-1";"PinSocket_1x08_P2.54mm_Vertical";2;"Conn_01x08";;;
+11;"PWR-1";"PinSocket_2x04_P2.54mm_Vertical";1;"Conn_02x04_Odd_Even";;;
+12;"G***";"Zynthian Logo Mask";1;"LOGO";;;
+13;"C1";"C_0603_1608Metric";1;"0.1u";;;
+14;"I2C-1";"PinSocket_1x02_P2.54mm_Vertical";1;"Conn_01x02";;;

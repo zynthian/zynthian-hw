@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCA9543ADR
+D I2C Hub, 4 Channels, Interrupts, TSSOP-20
+K I2C Hub
+F http://www.ti.com/lit/ds/symlink/tca9544a.pdf
+$ENDCMP
+#
+#End Doc Library

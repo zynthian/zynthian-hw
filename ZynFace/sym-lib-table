@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name tca9543adr)(type Legacy)(uri /home/txino/Zauber/zynthian/zynthian-hw/ZynFace/tca9543adr.lib)(options "")(descr ""))
+  (lib (name ZynFace-rescue)(type Legacy)(uri ${KIPRJMOD}/ZynFace-rescue.lib)(options "")(descr ""))
+)
