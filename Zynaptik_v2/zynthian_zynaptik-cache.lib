@@ -8,9 +8,9 @@ F0 "U" 0 50 50 H V C CNN
 F1 "74xx_74LS14" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS 74LS14
+ALIAS 74HC14 74HC04 74LS14
 $FPLIST
- DIP*W7.62mm*
+ DIP?14*
 $ENDFPLIST
 DRAW
 S -200 300 200 -300 7 1 10 f
@@ -20,18 +20,6 @@ P 4 3 0 10 -150 150 -150 -150 150 0 -150 150 f
 P 4 4 0 10 -150 150 -150 -150 150 0 -150 150 f
 P 4 5 0 10 -150 150 -150 -150 150 0 -150 150 f
 P 4 6 0 10 -150 150 -150 -150 150 0 -150 150 f
-P 3 1 1 0 -75 -50 -75 50 -25 50 N
-P 4 1 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 2 1 0 -75 -50 -75 50 -25 50 N
-P 4 2 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 3 1 0 -75 -50 -75 50 -25 50 N
-P 4 3 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 4 1 0 -75 -50 -75 50 -25 50 N
-P 4 4 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 5 1 0 -75 -50 -75 50 -25 50 N
-P 4 5 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 6 1 0 -75 -50 -75 50 -25 50 N
-P 4 6 1 0 -100 -50 -25 -50 -25 50 0 50 N
 X ~ 1 -300 0 150 R 50 50 1 0 I
 X ~ 2 300 0 150 L 50 50 1 0 O I
 X ~ 3 -300 0 150 R 50 50 2 0 I
@@ -111,8 +99,11 @@ $FPLIST
  CP_*
 $ENDFPLIST
 DRAW
-S -90 20 90 40 0 1 0 N
+S -90 20 -90 40 0 1 0 N
+S -90 20 90 20 0 1 0 N
 S 90 -20 -90 -40 0 1 0 F
+S 90 40 -90 40 0 1 0 N
+S 90 40 90 20 0 1 0 N
 P 2 0 1 0 -70 90 -30 90 N
 P 2 0 1 0 -50 110 -50 70 N
 X ~ 1 0 150 110 D 50 50 1 1 P
@@ -200,11 +191,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_+3.3V-power1
+# zynthian_zynaptik-rescue_+3.3V-power1-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_+3.3V-power1 #PWR 0 0 Y Y 1 F P
+DEF zynthian_zynaptik-rescue_+3.3V-power1-zynthian_zynaptik-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "zynthian_zynaptik-rescue_+3.3V-power1" 0 140 50 H V C CNN
+F1 "zynthian_zynaptik-rescue_+3.3V-power1-zynthian_zynaptik-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -215,11 +206,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_+5V-power1
+# zynthian_zynaptik-rescue_+5V-power1-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_+5V-power1 #PWR 0 0 Y Y 1 F P
+DEF zynthian_zynaptik-rescue_+5V-power1-zynthian_zynaptik-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "zynthian_zynaptik-rescue_+5V-power1" 0 140 50 H V C CNN
+F1 "zynthian_zynaptik-rescue_+5V-power1-zynthian_zynaptik-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -230,11 +221,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_C-device
+# zynthian_zynaptik-rescue_C-device-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_C-device C 0 10 N Y 1 F N
+DEF zynthian_zynaptik-rescue_C-device-zynthian_zynaptik-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "zynthian_zynaptik-rescue_C-device" 25 -100 50 H V L CNN
+F1 "zynthian_zynaptik-rescue_C-device-zynthian_zynaptik-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -248,11 +239,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_CONN_01X04_MALE-conn
+# zynthian_zynaptik-rescue_CONN_01X04_MALE-conn-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_CONN_01X04_MALE-conn J 0 40 Y N 1 F N
+DEF zynthian_zynaptik-rescue_CONN_01X04_MALE-conn-zynthian_zynaptik-rescue J 0 40 Y N 1 F N
 F0 "J" 0 375 50 H V C CNN
-F1 "zynthian_zynaptik-rescue_CONN_01X04_MALE-conn" 0 -400 50 H V C CNN
+F1 "zynthian_zynaptik-rescue_CONN_01X04_MALE-conn-zynthian_zynaptik-rescue" 0 -400 50 H V C CNN
 F2 "" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 DRAW
@@ -268,11 +259,11 @@ X 4 4 300 -300 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_CONN_02X20-conn
+# zynthian_zynaptik-rescue_CONN_02X20-conn-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_CONN_02X20-conn J 0 1 Y N 1 F N
+DEF zynthian_zynaptik-rescue_CONN_02X20-conn-zynthian_zynaptik-rescue J 0 1 Y N 1 F N
 F0 "J" 0 1050 50 H V C CNN
-F1 "zynthian_zynaptik-rescue_CONN_02X20-conn" 0 0 50 V V C CNN
+F1 "zynthian_zynaptik-rescue_CONN_02X20-conn-zynthian_zynaptik-rescue" 0 0 50 V V C CNN
 F2 "" 0 -950 50 H I C CNN
 F3 "" 0 -950 50 H I C CNN
 $FPLIST
@@ -367,11 +358,11 @@ X P9 9 -250 550 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_D-device
+# zynthian_zynaptik-rescue_D-device-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_D-device D 0 40 N N 1 F N
+DEF zynthian_zynaptik-rescue_D-device-zynthian_zynaptik-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "zynthian_zynaptik-rescue_D-device" 0 -100 50 H V C CNN
+F1 "zynthian_zynaptik-rescue_D-device-zynthian_zynaptik-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -390,11 +381,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_GND-power1
+# zynthian_zynaptik-rescue_GND-power1-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_GND-power1 #PWR 0 0 Y Y 1 F P
+DEF zynthian_zynaptik-rescue_GND-power1-zynthian_zynaptik-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "zynthian_zynaptik-rescue_GND-power1" 0 -150 50 H V C CNN
+F1 "zynthian_zynaptik-rescue_GND-power1-zynthian_zynaptik-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -403,11 +394,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_H11L1-opto
+# zynthian_zynaptik-rescue_H11L1-opto-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_H11L1-opto U 0 40 Y Y 1 F N
+DEF zynthian_zynaptik-rescue_H11L1-opto-zynthian_zynaptik-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 350 50 H V L CNN
-F1 "zynthian_zynaptik-rescue_H11L1-opto" 50 250 50 H V L CNN
+F1 "zynthian_zynaptik-rescue_H11L1-opto-zynthian_zynaptik-rescue" 50 250 50 H V L CNN
 F2 "" -90 0 50 H V C CNN
 F3 "" -90 0 50 H V C CNN
 $FPLIST
@@ -436,11 +427,11 @@ X ~ 6 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_Jumper_NO_Small-device
+# zynthian_zynaptik-rescue_Jumper_NO_Small-device-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_Jumper_NO_Small-device JP 0 30 N N 1 F N
+DEF zynthian_zynaptik-rescue_Jumper_NO_Small-device-zynthian_zynaptik-rescue JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "zynthian_zynaptik-rescue_Jumper_NO_Small-device" 10 -60 50 H V C CNN
+F1 "zynthian_zynaptik-rescue_Jumper_NO_Small-device-zynthian_zynaptik-rescue" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -451,11 +442,11 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_MCP23017-microchip
+# zynthian_zynaptik-rescue_MCP23017-microchip-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_MCP23017-microchip U 0 40 Y Y 1 F N
+DEF zynthian_zynaptik-rescue_MCP23017-microchip-zynthian_zynaptik-rescue U 0 40 Y Y 1 F N
 F0 "U" -100 1025 50 H V R CNN
-F1 "zynthian_zynaptik-rescue_MCP23017-microchip" -100 950 50 H V R CNN
+F1 "zynthian_zynaptik-rescue_MCP23017-microchip-zynthian_zynaptik-rescue" -100 950 50 H V R CNN
 F2 "" 50 -950 50 H I L CNN
 F3 "" 250 1000 50 H I C CNN
 $FPLIST
@@ -494,11 +485,11 @@ X VCC 9 0 1000 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_PWR_FLAG-power1
+# zynthian_zynaptik-rescue_PWR_FLAG-power1-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_PWR_FLAG-power1 #FLG 0 0 N N 1 F P
+DEF zynthian_zynaptik-rescue_PWR_FLAG-power1-zynthian_zynaptik-rescue #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "zynthian_zynaptik-rescue_PWR_FLAG-power1" 0 150 50 H V C CNN
+F1 "zynthian_zynaptik-rescue_PWR_FLAG-power1-zynthian_zynaptik-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -507,11 +498,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# zynthian_zynaptik-rescue_R-device
+# zynthian_zynaptik-rescue_R-device-zynthian_zynaptik-rescue
 #
-DEF zynthian_zynaptik-rescue_R-device R 0 0 N Y 1 F N
+DEF zynthian_zynaptik-rescue_R-device-zynthian_zynaptik-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "zynthian_zynaptik-rescue_R-device" 0 0 50 V V C CNN
+F1 "zynthian_zynaptik-rescue_R-device-zynthian_zynaptik-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:zynthiandac-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -116,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1850 4700 2100
 $Comp
-L zynthiandac-rescue:ASCO-Oscillator X2
+L Oscillator:ASCO X2
 U 1 1 5F7CA052
 P 14350 5950
 F 0 "X2" H 14794 5996 50  0000 L CNN
@@ -127,7 +126,7 @@ F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 14125 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthiandac-rescue:ASCO-Oscillator X1
+L Oscillator:ASCO X1
 U 1 1 5F7CBEB3
 P 14000 5100
 F 0 "X1" H 14444 5146 50  0000 L CNN
@@ -1811,7 +1810,7 @@ Connection ~ 3100 1300
 Wire Wire Line
 	3100 1300 3100 1350
 $Comp
-L zynthiandac-rescue:TLV71333PDBV-Regulator_Linear U5
+L Regulator_Linear:TLV71333PDBV U5
 U 1 1 5F9F6F73
 P 6450 2650
 F 0 "U5" H 6450 2992 50  0000 C CNN
@@ -1835,7 +1834,7 @@ Connection ~ 6150 2650
 Wire Wire Line
 	4050 2950 4350 2950
 $Comp
-L zynthiandac-rescue:TLV71333PDBV-Regulator_Linear U4
+L Regulator_Linear:TLV71333PDBV U4
 U 1 1 5FA6FD02
 P 5350 2650
 F 0 "U4" H 5350 2992 50  0000 C CNN
@@ -1857,7 +1856,7 @@ Connection ~ 5050 2350
 Wire Wire Line
 	5050 2350 6150 2350
 $Comp
-L zynthiandac-rescue:TLV71333PDBV-Regulator_Linear U3
+L Regulator_Linear:TLV71333PDBV U3
 U 1 1 5FAD063E
 P 4350 2650
 F 0 "U3" H 4350 2992 50  0000 C CNN

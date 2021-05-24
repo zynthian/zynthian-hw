@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:zynthian_zynaptik-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR01
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR01
 U 1 1 5919A2E6
 P 4950 5650
 F 0 "#PWR01" H 4950 5400 50  0001 C CNN
@@ -25,7 +26,7 @@ F 3 "" H 4950 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:MCP23017-microchip MCP23017
+L zynthian_zynaptik-rescue:MCP23017-microchip-zynthian_zynaptik-rescue MCP23017
 U 1 1 5919A2E7
 P 4450 4850
 F 0 "MCP23017" H 4350 5875 50  0000 R CNN
@@ -36,7 +37,7 @@ F 3 "" H 4700 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR02
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR02
 U 1 1 5919A2E8
 P 4450 5850
 F 0 "#PWR02" H 4450 5600 50  0001 C CNN
@@ -47,7 +48,7 @@ F 3 "" H 4450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:CONN_02X20-conn RBPi-1
+L zynthian_zynaptik-rescue:CONN_02X20-conn-zynthian_zynaptik-rescue RBPi-1
 U 1 1 5919A2EF
 P 6750 4950
 F 0 "RBPi-1" H 6750 6000 50  0000 C CNN
@@ -58,7 +59,7 @@ F 3 "" H 6750 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR07
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR07
 U 1 1 5919A2F0
 P 7300 4000
 F 0 "#PWR07" H 7300 3850 50  0001 C CNN
@@ -69,7 +70,7 @@ F 3 "" H 7300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+3.3V-power1 #PWR08
+L zynthian_zynaptik-rescue:+3.3V-power1-zynthian_zynaptik-rescue #PWR08
 U 1 1 5919A2F1
 P 6400 4000
 F 0 "#PWR08" H 6400 3850 50  0001 C CNN
@@ -80,7 +81,7 @@ F 3 "" H 6400 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR09
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR09
 U 1 1 5919A2F2
 P 7100 4200
 F 0 "#PWR09" H 7100 3950 50  0001 C CNN
@@ -91,7 +92,7 @@ F 3 "" H 7100 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR010
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR010
 U 1 1 5919A2F3
 P 7100 4600
 F 0 "#PWR010" H 7100 4350 50  0001 C CNN
@@ -102,7 +103,7 @@ F 3 "" H 7100 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR011
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR011
 U 1 1 5919A2F4
 P 7100 4900
 F 0 "#PWR011" H 7100 4650 50  0001 C CNN
@@ -113,7 +114,7 @@ F 3 "" H 7100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR012
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR012
 U 1 1 5919A2F5
 P 7100 5400
 F 0 "#PWR012" H 7100 5150 50  0001 C CNN
@@ -124,7 +125,7 @@ F 3 "" H 7100 5400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR013
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR013
 U 1 1 5919A2F6
 P 7100 5600
 F 0 "#PWR013" H 7100 5350 50  0001 C CNN
@@ -135,7 +136,7 @@ F 3 "" H 7100 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR014
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR014
 U 1 1 5919A2F7
 P 6400 4400
 F 0 "#PWR014" H 6400 4150 50  0001 C CNN
@@ -146,7 +147,7 @@ F 3 "" H 6400 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR015
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR015
 U 1 1 5919A2F8
 P 6400 5200
 F 0 "#PWR015" H 6400 4950 50  0001 C CNN
@@ -157,7 +158,7 @@ F 3 "" H 6400 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR016
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR016
 U 1 1 5919A2F9
 P 6400 5900
 F 0 "#PWR016" H 6400 5650 50  0001 C CNN
@@ -194,7 +195,7 @@ NoConn ~ 7000 5900
 NoConn ~ 7000 5800
 NoConn ~ 7000 5500
 $Comp
-L zynthian_zynaptik-rescue:PWR_FLAG-power1 #FLG017
+L zynthian_zynaptik-rescue:PWR_FLAG-power1-zynthian_zynaptik-rescue #FLG017
 U 1 1 5919B924
 P 4600 3000
 F 0 "#FLG017" H 4600 3075 50  0001 C CNN
@@ -205,7 +206,7 @@ F 3 "" H 4600 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:PWR_FLAG-power1 #FLG018
+L zynthian_zynaptik-rescue:PWR_FLAG-power1-zynthian_zynaptik-rescue #FLG018
 U 1 1 5919B96A
 P 5100 3000
 F 0 "#FLG018" H 5100 3075 50  0001 C CNN
@@ -216,7 +217,7 @@ F 3 "" H 5100 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR019
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR019
 U 1 1 5919B9AE
 P 4450 3700
 F 0 "#PWR019" H 4450 3550 50  0001 C CNN
@@ -227,7 +228,7 @@ F 3 "" H 4450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR020
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR020
 U 1 1 5919B9D8
 P 4600 3000
 F 0 "#PWR020" H 4600 2850 50  0001 C CNN
@@ -238,7 +239,7 @@ F 3 "" H 4600 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR021
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR021
 U 1 1 5919B9F5
 P 5100 3000
 F 0 "#PWR021" H 5100 2750 50  0001 C CNN
@@ -249,7 +250,7 @@ F 3 "" H 5100 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:PWR_FLAG-power1 #FLG023
+L zynthian_zynaptik-rescue:PWR_FLAG-power1-zynthian_zynaptik-rescue #FLG023
 U 1 1 5919BBF9
 P 4050 3000
 F 0 "#FLG023" H 4050 3075 50  0001 C CNN
@@ -260,7 +261,7 @@ F 3 "" H 4050 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+3.3V-power1 #PWR024
+L zynthian_zynaptik-rescue:+3.3V-power1-zynthian_zynaptik-rescue #PWR024
 U 1 1 5919BC39
 P 4050 3000
 F 0 "#PWR024" H 4050 2850 50  0001 C CNN
@@ -271,7 +272,7 @@ F 3 "" H 4050 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR026
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR026
 U 1 1 5919A2E9
 P 5100 5550
 F 0 "#PWR026" H 5100 5300 50  0001 C CNN
@@ -282,7 +283,7 @@ F 3 "" H 5100 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:H11L1-opto OC1
+L zynthian_zynaptik-rescue:H11L1-opto-zynthian_zynaptik-rescue OC1
 U 1 1 5919DCA6
 P 11100 4400
 F 0 "OC1" H 11150 4750 50  0000 L CNN
@@ -293,7 +294,7 @@ F 3 "" H 11010 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:D-device D1
+L zynthian_zynaptik-rescue:D-device-zynthian_zynaptik-rescue D1
 U 1 1 5919DCF9
 P 10000 4350
 F 0 "D1" H 10000 4450 50  0000 C CNN
@@ -304,7 +305,7 @@ F 3 "" H 10000 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:R-device R1
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R1
 U 1 1 5919DDB1
 P 9650 4200
 F 0 "R1" V 9730 4200 50  0000 C CNN
@@ -315,7 +316,7 @@ F 3 "" H 9650 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:R-device R2
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R2
 U 1 1 5919DE44
 P 10350 4200
 F 0 "R2" V 10430 4200 50  0000 C CNN
@@ -326,7 +327,7 @@ F 3 "" H 10350 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:R-device R3
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R3
 U 1 1 5919DFC7
 P 12100 4050
 F 0 "R3" V 12180 4050 50  0000 C CNN
@@ -337,7 +338,7 @@ F 3 "" H 12100 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:D-device D2
+L zynthian_zynaptik-rescue:D-device-zynthian_zynaptik-rescue D2
 U 1 1 5919E092
 P 12400 4400
 F 0 "D2" H 12400 4500 50  0000 C CNN
@@ -348,7 +349,7 @@ F 3 "" H 12400 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR027
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR027
 U 1 1 5919E442
 P 11100 4700
 F 0 "#PWR027" H 11100 4450 50  0001 C CNN
@@ -359,7 +360,7 @@ F 3 "" H 11100 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:CONN_01X04_MALE-conn MIDI-1
+L zynthian_zynaptik-rescue:CONN_01X04_MALE-conn-zynthian_zynaptik-rescue MIDI-1
 U 1 1 5919E470
 P 8950 4100
 F 0 "MIDI-1" H 8950 4475 50  0000 C CNN
@@ -430,7 +431,7 @@ MIDI-IN
 Text Label 12100 4500 3    60   ~ 0
 MIDI-THRU
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR028
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR028
 U 1 1 5919F161
 P 12100 3900
 F 0 "#PWR028" H 12100 3750 50  0001 C CNN
@@ -441,7 +442,7 @@ F 3 "" H 12100 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:CONN_01X04_MALE-conn MIDI-2
+L zynthian_zynaptik-rescue:CONN_01X04_MALE-conn-zynthian_zynaptik-rescue MIDI-2
 U 1 1 5919F25F
 P 8950 5900
 F 0 "MIDI-2" H 8950 6275 50  0000 C CNN
@@ -452,7 +453,7 @@ F 3 "" H 8950 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:C-device C1
+L zynthian_zynaptik-rescue:C-device-zynthian_zynaptik-rescue C1
 U 1 1 5919F42E
 P 11600 4050
 F 0 "C1" H 11625 4150 50  0000 L CNN
@@ -463,7 +464,7 @@ F 3 "" H 11600 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR029
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR029
 U 1 1 5919F531
 P 11600 4200
 F 0 "#PWR029" H 11600 3950 50  0001 C CNN
@@ -479,7 +480,7 @@ Wire Wire Line
 	11100 3900 11600 3900
 Connection ~ 11600 3900
 $Comp
-L zynthian_zynaptik-rescue:CONN_01X04_MALE-conn MIDI-3
+L zynthian_zynaptik-rescue:CONN_01X04_MALE-conn-zynthian_zynaptik-rescue MIDI-3
 U 1 1 591A11B8
 P 8950 7550
 F 0 "MIDI-3" H 8950 7925 50  0000 C CNN
@@ -492,7 +493,7 @@ $EndComp
 Text Label 11450 7850 0    60   ~ 0
 MIDI-OUT
 $Comp
-L zynthian_zynaptik-rescue:R-device R10
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R10
 U 1 1 591A45D5
 P 7600 4400
 F 0 "R10" V 7680 4400 50  0000 C CNN
@@ -503,7 +504,7 @@ F 3 "" H 7600 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+3.3V-power1 #PWR040
+L zynthian_zynaptik-rescue:+3.3V-power1-zynthian_zynaptik-rescue #PWR040
 U 1 1 591A4661
 P 7750 4400
 F 0 "#PWR040" H 7750 4250 50  0001 C CNN
@@ -535,7 +536,7 @@ INTA
 Text Label 6500 5800 2    60   ~ 0
 INTB
 $Comp
-L zynthian_zynaptik-rescue:C-device C4
+L zynthian_zynaptik-rescue:C-device-zynthian_zynaptik-rescue C4
 U 1 1 591ACB40
 P 5300 3900
 F 0 "C4" H 5325 4000 50  0000 L CNN
@@ -546,7 +547,7 @@ F 3 "" H 5300 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR041
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR041
 U 1 1 591ACD80
 P 5300 4050
 F 0 "#PWR041" H 5300 3800 50  0001 C CNN
@@ -576,7 +577,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 3750 5300 3750
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR0101
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR0101
 U 1 1 5CA5B87C
 P 5100 5450
 F 0 "#PWR0101" H 5100 5300 50  0001 C CNN
@@ -589,7 +590,7 @@ $EndComp
 Wire Wire Line
 	4950 5450 5100 5450
 $Comp
-L zynthian_zynaptik-rescue:CONN_02X20-conn Zynaptik-1
+L zynthian_zynaptik-rescue:CONN_02X20-conn-zynthian_zynaptik-rescue Zynaptik-1
 U 1 1 5CA5DAB7
 P 2150 5000
 F 0 "Zynaptik-1" H 2150 6050 50  0000 C CNN
@@ -600,7 +601,7 @@ F 3 "" H 2150 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+3.3V-power1 #PWR0102
+L zynthian_zynaptik-rescue:+3.3V-power1-zynthian_zynaptik-rescue #PWR0102
 U 1 1 5CA5DF64
 P 1750 4050
 F 0 "#PWR0102" H 1750 3900 50  0001 C CNN
@@ -611,7 +612,7 @@ F 3 "" H 1750 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR0103
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR0103
 U 1 1 5CA5DFA5
 P 2450 4050
 F 0 "#PWR0103" H 2450 3900 50  0001 C CNN
@@ -626,7 +627,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 4050 1750 4050
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR0104
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR0104
 U 1 1 5CAC7419
 P 2600 4150
 F 0 "#PWR0104" H 2600 3900 50  0001 C CNN
@@ -675,7 +676,7 @@ DA-2
 Text Label 1900 4650 2    50   ~ 0
 DA-3
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR0109
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR0109
 U 1 1 5CB1F261
 P 1550 5050
 F 0 "#PWR0109" H 1550 4800 50  0001 C CNN
@@ -686,7 +687,7 @@ F 3 "" H 1550 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR0110
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR0110
 U 1 1 5CB1F2A6
 P 1550 4350
 F 0 "#PWR0110" H 1550 4100 50  0001 C CNN
@@ -705,7 +706,7 @@ SDA
 Text Label 1900 4250 2    50   ~ 0
 SCL
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR0112
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR0112
 U 1 1 5CB5F39D
 P 2700 5050
 F 0 "#PWR0112" H 2700 4800 50  0001 C CNN
@@ -716,7 +717,7 @@ F 3 "" H 2700 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR0113
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR0113
 U 1 1 5CB8DCD3
 P 2700 5650
 F 0 "#PWR0113" H 2700 5400 50  0001 C CNN
@@ -794,7 +795,7 @@ GPA6
 Text Label 2400 5950 0    50   ~ 0
 GPA7
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR03
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR03
 U 1 1 5CBFDF42
 P 1550 5450
 F 0 "#PWR03" H 1550 5200 50  0001 C CNN
@@ -833,7 +834,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 10350 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:R-device R6
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R6
 U 1 1 5CEE0E06
 P 9700 6200
 F 0 "R6" V 9780 6200 50  0000 C CNN
@@ -844,7 +845,7 @@ F 3 "" H 9700 6200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:R-device R5
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R5
 U 1 1 5CEE12E3
 P 9700 6000
 F 0 "R5" V 9780 6000 50  0000 C CNN
@@ -863,7 +864,7 @@ Wire Wire Line
 Text Label 11350 6200 0    60   ~ 0
 MIDI-THRU
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR04
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR04
 U 1 1 5CEF817F
 P 9250 5600
 F 0 "#PWR04" H 9250 5450 50  0001 C CNN
@@ -900,7 +901,7 @@ $EndComp
 Wire Wire Line
 	10850 7850 10650 7850
 $Comp
-L zynthian_zynaptik-rescue:R-device R9
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R9
 U 1 1 5CF1A083
 P 9700 7850
 F 0 "R9" V 9780 7850 50  0000 C CNN
@@ -911,7 +912,7 @@ F 3 "" H 9700 7850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:R-device R8
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R8
 U 1 1 5CF1A10B
 P 9700 7650
 F 0 "R8" V 9780 7650 50  0000 C CNN
@@ -922,7 +923,7 @@ F 3 "" H 9700 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:R-device R7
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R7
 U 1 1 5CF1A15B
 P 10700 7250
 F 0 "R7" V 10780 7250 50  0000 C CNN
@@ -933,7 +934,7 @@ F 3 "" H 10700 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR017
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR017
 U 1 1 5CF1A1A7
 P 10850 7250
 F 0 "#PWR017" H 10850 7100 50  0001 C CNN
@@ -944,7 +945,7 @@ F 3 "" H 10850 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR05
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR05
 U 1 1 5CF1A1E8
 P 9250 7250
 F 0 "#PWR05" H 9250 7100 50  0001 C CNN
@@ -974,7 +975,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 12950 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR018
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR018
 U 1 1 5CF28F95
 P 12950 6550
 F 0 "#PWR018" H 12950 6400 50  0001 C CNN
@@ -985,7 +986,7 @@ F 3 "" H 12950 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:GND-power1 #PWR023
+L zynthian_zynaptik-rescue:GND-power1-zynthian_zynaptik-rescue #PWR023
 U 1 1 5CF28FD8
 P 12950 7550
 F 0 "#PWR023" H 12950 7300 50  0001 C CNN
@@ -996,7 +997,7 @@ F 3 "" H 12950 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:R-device R4
+L zynthian_zynaptik-rescue:R-device-zynthian_zynaptik-rescue R4
 U 1 1 5CF2B950
 P 10700 5600
 F 0 "R4" V 10780 5600 50  0000 C CNN
@@ -1007,7 +1008,7 @@ F 3 "" H 10700 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR0111
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR0111
 U 1 1 5CF2D5AC
 P 10850 5600
 F 0 "#PWR0111" H 10850 5450 50  0001 C CNN
@@ -1022,7 +1023,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 7450 10000 7650
 $Comp
-L zynthian_zynaptik-rescue:Jumper_NO_Small-device JP1
+L zynthian_zynaptik-rescue:Jumper_NO_Small-device-zynthian_zynaptik-rescue JP1
 U 1 1 5CF34380
 P 10150 5600
 F 0 "JP1" H 10150 5785 50  0000 C CNN
@@ -1044,7 +1045,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 5600 10550 5600
 $Comp
-L zynthian_zynaptik-rescue:Jumper_NO_Small-device JP2
+L zynthian_zynaptik-rescue:Jumper_NO_Small-device-zynthian_zynaptik-rescue JP2
 U 1 1 5CF3E099
 P 10100 7250
 F 0 "JP2" H 10100 7435 50  0000 C CNN
@@ -1184,7 +1185,7 @@ Wire Wire Line
 	2600 4550 2600 4450
 Connection ~ 2600 4450
 $Comp
-L zynthian_zynaptik-rescue:C-device C2
+L zynthian_zynaptik-rescue:C-device-zynthian_zynaptik-rescue C2
 U 1 1 5FD49622
 P 1000 7900
 F 0 "C2" H 1025 8000 50  0000 L CNN
@@ -1208,7 +1209,7 @@ $EndComp
 Wire Wire Line
 	2000 9800 2000 9700
 $Comp
-L zynthian_zynaptik-rescue:C-device C3
+L zynthian_zynaptik-rescue:C-device-zynthian_zynaptik-rescue C3
 U 1 1 5FD5FD84
 P 1000 9100
 F 0 "C3" H 1025 9200 50  0000 L CNN
@@ -1230,7 +1231,7 @@ F 3 "~" H 2000 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:+5V-power1 #PWR025
+L zynthian_zynaptik-rescue:+5V-power1-zynthian_zynaptik-rescue #PWR025
 U 1 1 5FD374EC
 P 2000 7550
 F 0 "#PWR025" H 2000 7400 50  0001 C CNN
@@ -1310,7 +1311,7 @@ Wire Wire Line
 	6200 8350 4900 8350
 Connection ~ 3400 8350
 $Comp
-L zynthian_zynaptik-rescue:C-device C6
+L zynthian_zynaptik-rescue:C-device-zynthian_zynaptik-rescue C6
 U 1 1 5FE1AE4B
 P 4900 9100
 F 0 "C6" H 4925 9200 50  0000 L CNN
@@ -1429,7 +1430,7 @@ F 3 "" H 5550 7600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:PWR_FLAG-power1 #FLG0101
+L zynthian_zynaptik-rescue:PWR_FLAG-power1-zynthian_zynaptik-rescue #FLG0101
 U 1 1 5FF8CC86
 P 5550 7600
 F 0 "#FLG0101" H 5550 7675 50  0001 C CNN
@@ -1440,7 +1441,7 @@ F 3 "" H 5550 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zynthian_zynaptik-rescue:PWR_FLAG-power1 #FLG0102
+L zynthian_zynaptik-rescue:PWR_FLAG-power1-zynthian_zynaptik-rescue #FLG0102
 U 1 1 5FF8D3C6
 P 6000 7600
 F 0 "#FLG0102" H 6000 7675 50  0001 C CNN
