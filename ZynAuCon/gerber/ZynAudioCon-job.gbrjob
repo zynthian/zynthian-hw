@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.7-a382d34a8~88~ubuntu18.04.1"
+      "Version":     "5.0.2-5.fc29"
     },
-    "CreationDate":  "2021-03-11T03:59:41+01:00"
+    "CreationDate":  "2021-07-15T17:32:54+02:00"
   },
   "GeneralSpecs":
   {
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "ZynAudioCon-F_Cu.gbr",
+      "Path":  "ZynAudioCon-F.Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "ZynAudioCon-B_Cu.gbr",
+      "Path":  "ZynAudioCon-B.Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "ZynAudioCon-F_Paste.gbr",
+      "Path":  "ZynAudioCon-F.Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "ZynAudioCon-B_Paste.gbr",
+      "Path":  "ZynAudioCon-B.Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "ZynAudioCon-F_SilkS.gbr",
+      "Path":  "ZynAudioCon-F.SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "ZynAudioCon-B_SilkS.gbr",
+      "Path":  "ZynAudioCon-B.SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "ZynAudioCon-F_Mask.gbr",
+      "Path":  "ZynAudioCon-F.Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "ZynAudioCon-B_Mask.gbr",
+      "Path":  "ZynAudioCon-B.Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "ZynAudioCon-Edge_Cuts.gbr",
+      "Path":  "ZynAudioCon-Edge.Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
