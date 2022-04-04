@@ -1,6 +1,6 @@
 # ZynFace
 
-ZynFace is an Open Hardware breakout board for the [Zynaptik module](https://github.com/zynthian/zynthian-hw/tree/master/Zynaptik_v3):
+ZynFace is a breakout board for the [Zynaptik module](https://github.com/zynthian/zynthian-hw/tree/master/Zynaptik_v3):
 
 ![Image of Zynface Breakout Board](https://github.com/zynthian/zynthian-hw/blob/master/ZynFace/ZynFace.png)
 
