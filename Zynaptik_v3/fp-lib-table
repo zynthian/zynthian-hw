@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name mod)(type KiCad)(uri ${KIPRJMOD}/lib/mod)(options "")(descr ""))
+  (lib (name zynthian)(type KiCad)(uri ${KIPRJMOD}/lib/zynthian.pretty)(options "")(descr ""))
+)

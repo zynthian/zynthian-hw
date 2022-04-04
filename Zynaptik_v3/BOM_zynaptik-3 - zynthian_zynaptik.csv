@@ -1,0 +1,21 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,U1,SOIC-14_3.9x8.7mm_P1.27mm,1,IC 74LS14,https://www.digikey.es/product-detail/en/texas-instruments/SN74LS14DR/296-1212-2-ND/276855
+2,"C1,C4,C6",C_0805_2012Metric,3,"Ceramic Capacitor 100n (0.1 uF), 16V, 10%",https://www.digikey.es/product-detail/en/kemet/C0805C104K4RACAUTO/399-C0805C104K4RACAUTOTR-ND/10642389
+3,D2,D_SOD-123,1,Diode 1N5819,https://www.digikey.es/product-detail/en/diodes-incorporated/1N5819HW-7-F/1N5819HW-FDITR-ND/814970
+4,"MIDI-1,MIDI-2,MIDI-3,CTR-1,CTRL-1,CTRL-3,CTRL-4",JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,7,"Connector JST-SH: 4 pins, P1mm, Vertical",https://www.digikey.es/product-detail/en/jst-sales-america-inc/BM04B-SRSS-TB-LF-SN/455-1790-2-ND/926696
+5,R1,R_0805_2012Metric,1,"Resistor 100, thin film, 1%, 1/4W",https://www.digikey.es/product-detail/en/stackpole-electronics-inc/RNCP0805FTD100R/RNCP0805FTD100RTR-ND/2240209
+6,R2,R_0805_2012Metric,1,"Resistor 470, thin film, 1%, 1/4W",https://www.digikey.es/products/en?keywords=RNCP0805FTD470R
+7,R3,R_0805_2012Metric,1,"Resistor 1K, thin film, 1%, 1/4W",https://www.digikey.es/product-detail/en/stackpole-electronics-inc/RNCP0805FTD1K00/RNCP0805FTD1K00TR-ND/2240229
+8,"RBPi-1, Zynaptik-1",PinHeader_2x20_P2.54mm_Vertical,2,"PinHeader 2x20 pins, P2.54mm",
+9,"R4,R7",R_0805_2012Metric,2,"Resistor 332, thin film, 1%, 1/4W",https://www.digikey.es/product-detail/en/stackpole-electronics-inc/RNCP0805FTD332R/RNCP0805FTD332RTR-ND/2240218
+10,"R5,R8",R_0805_2012Metric,2,"Resistor 10, thin film, 1%, 1/4W",https://www.digikey.es/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10R0/RNCP0805FTD10R0TR-ND/2240197
+11,"R6,R9",R_0805_2012Metric,2,"Resistor 33.2, thin film, 1%, 1/4W",https://www.digikey.es/product-detail/en/stackpole-electronics-inc/RNCP0805FTD33R2/RNCP0805FTD33R2TR-ND/2240201
+12,"C2,C3",C_0805_2012Metric,2,"Ceramic Capacitor 1uF, 16V, 10%",https://www.digikey.es/product-detail/en/kemet/C0805C105K4RAC7210/399-C0805C105K4RAC7210TR-ND/10483019
+13,D1,D_SOD-323F,1,Diode 1N4148,https://www.digikey.es/product-detail/en/smc-diode-solutions/1N4148WSTR/1655-1359-2-ND/6022449
+14,"FB1,FB2",R_0805_2012Metric,2,Ferrite Bead MMZ2012Y152B,https://www.digikey.es/product-detail/en/tdk-corporation/MMZ2012Y152BTD25/445-172871-2-ND/5040294
+15,OC1,DIP-6_W7.62mm_SMDSocket_SmallPads => SMD!!!,1,IC H11L1 (OptoCoupler),https://www.digikey.es/product-detail/en/everlight-electronics-co-ltd/H11L1S-TA/1080-1201-2-ND/2675692
+16,"R10,R11,R12,R13,R14,R15",R_0603_1608Metric,6,"Resistor  10K, thin film, 1%, 1/8W",https://www.digikey.es/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0TR-ND/2240139
+18,U2,VSSOP-10_3x3mm_P0.5mm,1,IC ADS1115IDGSR,https://www.digikey.es/product-detail/en/texas-instruments/ADS1115IDGSR/296-38849-2-ND/2231567
+19,U3,MSOP-10_3x3mm_P0.5mm,1,IC MCP4728,https://www.digikey.es/product-detail/en/microchip-technology/MCP4728A1T-E-UN/MCP4728A1T-E-UNCT-ND/8628844
+20,MCP23017,SSOP-28_5.3x10.2mm_P0.65mm,1,IC MCP23017,https://www.digikey.es/product-detail/en/microchip-technology/MCP23017-E-SS/MCP23017-E-SS-ND/894273
+21,C5,CP_EIA-3216-12_Kemet-S,1,"Tantalum Capacitor 10uF, 16V, 10%",https://www.digikey.es/product-detail/en/kemet/T491A106K016AT/399-8269-2-ND/2336183
