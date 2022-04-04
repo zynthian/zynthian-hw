@@ -1,6 +1,6 @@
 # ZynAuCon
 
-ZynAuCon is an Open Hardware breakout board for the [ZynADAC audio interface](https://github.com/zynthian/zynthian-hw/tree/master/ZynADAC):
+ZynAuCon is a breakout board for the [ZynADAC audio interface](https://github.com/zynthian/zynthian-hw/tree/master/ZynADAC):
 
 ![Image of ZynAuCon Breakout Board](https://github.com/zynthian/zynthian-hw/blob/master/ZynAuCon/zynaucon_render_01.png)
 
