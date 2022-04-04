@@ -542,6 +542,7 @@
   (module pcm1863:PCM1863DBT (layer F.Cu) (tedit 60AB7EE5) (tstamp 5FA4E0D2)
     (at 29.1 35.9 180)
     (path /5F73CE71)
+    (attr smd)
     (fp_text reference U1 (at -0.9 5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2594,6 +2595,7 @@
   (module zynthiandac:led_0806 (layer F.Cu) (tedit 5F9A1D19) (tstamp 5F9ABB29)
     (at 22.15 33.65 180)
     (path /5F8A3ACF)
+    (attr smd)
     (fp_text reference D1 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2609,6 +2611,7 @@
   (module zynthiandac:led_0806 (layer F.Cu) (tedit 5F9A1D19) (tstamp 5F9ABB2F)
     (at 54.7 39)
     (path /5FB5B263)
+    (attr smd)
     (fp_text reference D2 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5023,7 +5026,7 @@
   (segment (start 46.1 32.3) (end 46.1 30.6875) (width 0.25) (layer F.Cu) (net 91) (status 20))
   (segment (start 47.699695 33.899695) (end 46.1 32.3) (width 0.25) (layer F.Cu) (net 91))
 
-  (zone (net 8) (net_name GND) (layer B.Cu) (tstamp 60B83BF1) (hatch edge 0.508)
+  (zone (net 8) (net_name GND) (layer B.Cu) (tstamp 60AE31AD) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25)
     (fill yes (arc_segments 32) (thermal_gap 0.25) (thermal_bridge_width 0.5))
@@ -6103,7 +6106,7 @@
       )
     )
   )
-  (zone (net 8) (net_name GND) (layer F.Cu) (tstamp 60B83BEE) (hatch edge 0.508)
+  (zone (net 8) (net_name GND) (layer F.Cu) (tstamp 60AE31AA) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25)
     (fill yes (arc_segments 32) (thermal_gap 0.25) (thermal_bridge_width 0.5))

@@ -28,4 +28,5 @@
   (lib (name atmel)(type Legacy)(uri /home/txino/Zauber/zynthian/kicad/kicad-library/library/atmel.lib)(options "")(descr ""))
   (lib (name contrib)(type Legacy)(uri /home/txino/Zauber/zynthian/kicad/kicad-library/library/contrib.lib)(options "")(descr ""))
   (lib (name valves)(type Legacy)(uri /home/txino/Zauber/zynthian/kicad/kicad-library/library/valves.lib)(options "")(descr ""))
+  (lib (name zynthian_zynaptik-rescue)(type Legacy)(uri ${KIPRJMOD}/zynthian_zynaptik-rescue.lib)(options "")(descr ""))
 )

@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name pcm1863)(type KiCad)(uri /home/octavio/Documentos/zynthiandac/ul_PCM1863DBT/KiCAD/2020-09-29_23-30-00/footprints.pretty)(options "")(descr ""))
-  (lib (name pcm5242)(type KiCad)(uri /home/octavio/Documentos/zynthiandac/ul_PCM5242RHBR/KiCAD/2020-10-18_16-58-23/footprints.pretty)(options "")(descr ""))
+  (lib (name pcm1863)(type KiCad)(uri ${KIPRJMOD}/ul_PCM1863DBT/KiCAD/2020-09-29_23-30-00/footprints.pretty)(options "")(descr ""))
+  (lib (name pcm5242)(type KiCad)(uri ${KIPRJMOD}/ul_PCM5242RHBR/KiCAD/2020-10-18_16-58-23/footprints.pretty)(options "")(descr ""))
   (lib (name zynthiandac)(type KiCad)(uri ${KIPRJMOD}/zynthiandac.pretty)(options "")(descr ""))
 )

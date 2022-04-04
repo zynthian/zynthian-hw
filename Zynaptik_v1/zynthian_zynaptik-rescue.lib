@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# zynthian_allinone-rescue_+3.3V
+# +3.3V-power1
 #
-DEF zynthian_allinone-rescue_+3.3V #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power1 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "zynthian_allinone-rescue_+3.3V" 0 140 50 H V C CNN
+F1 "+3.3V-power1" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_+5V
+# +5V-power1
 #
-DEF zynthian_allinone-rescue_+5V #PWR 0 0 Y Y 1 F P
+DEF +5V-power1 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "zynthian_allinone-rescue_+5V" 0 140 50 H V C CNN
+F1 "+5V-power1" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_C
+# C-device
 #
-DEF zynthian_allinone-rescue_C C 0 10 N Y 1 F N
+DEF C-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "zynthian_allinone-rescue_C" 25 -100 50 H V L CNN
+F1 "C-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -49,11 +49,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_CONN_01X04_MALE
+# CONN_01X04_MALE-conn
 #
-DEF zynthian_allinone-rescue_CONN_01X04_MALE J 0 40 Y N 1 F N
+DEF CONN_01X04_MALE-conn J 0 40 Y N 1 F N
 F0 "J" 0 375 50 H V C CNN
-F1 "zynthian_allinone-rescue_CONN_01X04_MALE" 0 -400 50 H V C CNN
+F1 "CONN_01X04_MALE-conn" 0 -400 50 H V C CNN
 F2 "" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 DRAW
@@ -69,11 +69,11 @@ X 4 4 300 -300 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_CONN_01X05
+# CONN_01X10-conn
 #
-DEF zynthian_allinone-rescue_CONN_01X05 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "zynthian_allinone-rescue_CONN_01X05" 100 0 50 V V C CNN
+DEF CONN_01X10-conn J 0 40 Y N 1 F N
+F0 "J" 0 550 50 H V C CNN
+F1 "CONN_01X10-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -83,25 +83,35 @@ $FPLIST
  Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
-S -50 -195 10 -205 0 1 0 N
-S -50 -95 10 -105 0 1 0 N
-S -50 5 10 -5 0 1 0 N
-S -50 105 10 95 0 1 0 N
-S -50 205 10 195 0 1 0 N
-S -50 250 50 -250 0 1 0 N
-X P1 1 -200 200 150 R 50 50 1 1 P
-X P2 2 -200 100 150 R 50 50 1 1 P
-X P3 3 -200 0 150 R 50 50 1 1 P
-X P4 4 -200 -100 150 R 50 50 1 1 P
-X P5 5 -200 -200 150 R 50 50 1 1 P
+S -50 -445 10 -455 0 1 0 N
+S -50 -345 10 -355 0 1 0 N
+S -50 -245 10 -255 0 1 0 N
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 255 10 245 0 1 0 N
+S -50 355 10 345 0 1 0 N
+S -50 455 10 445 0 1 0 N
+S -50 500 50 -500 0 1 0 N
+X P1 1 -200 450 150 R 50 50 1 1 P
+X P10 10 -200 -450 150 R 50 50 1 1 P
+X P2 2 -200 350 150 R 50 50 1 1 P
+X P3 3 -200 250 150 R 50 50 1 1 P
+X P4 4 -200 150 150 R 50 50 1 1 P
+X P5 5 -200 50 150 R 50 50 1 1 P
+X P6 6 -200 -50 150 R 50 50 1 1 P
+X P7 7 -200 -150 150 R 50 50 1 1 P
+X P8 8 -200 -250 150 R 50 50 1 1 P
+X P9 9 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_CONN_02X20
+# CONN_02X20-conn
 #
-DEF zynthian_allinone-rescue_CONN_02X20 J 0 1 Y N 1 F N
+DEF CONN_02X20-conn J 0 1 Y N 1 F N
 F0 "J" 0 1050 50 H V C CNN
-F1 "zynthian_allinone-rescue_CONN_02X20" 0 0 50 V V C CNN
+F1 "CONN_02X20-conn" 0 0 50 V V C CNN
 F2 "" 0 -950 50 H I C CNN
 F3 "" 0 -950 50 H I C CNN
 $FPLIST
@@ -196,11 +206,11 @@ X P9 9 -250 550 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_D
+# D-device
 #
-DEF zynthian_allinone-rescue_D D 0 40 N N 1 F N
+DEF D-device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "zynthian_allinone-rescue_D" 0 -100 50 H V C CNN
+F1 "D-device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -219,11 +229,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_GND
+# GND-power1
 #
-DEF zynthian_allinone-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF GND-power1 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "zynthian_allinone-rescue_GND" 0 -150 50 H V C CNN
+F1 "GND-power1" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -232,11 +242,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_H11L1
+# H11L1-opto
 #
-DEF zynthian_allinone-rescue_H11L1 U 0 40 Y Y 1 F N
+DEF H11L1-opto U 0 40 Y Y 1 F N
 F0 "U" 50 350 50 H V L CNN
-F1 "zynthian_allinone-rescue_H11L1" 50 250 50 H V L CNN
+F1 "H11L1-opto" 50 250 50 H V L CNN
 F2 "" -90 0 50 H V C CNN
 F3 "" -90 0 50 H V C CNN
 $FPLIST
@@ -265,11 +275,26 @@ X ~ 6 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_MCP23017
+# Jumper_NO_Small-device
 #
-DEF zynthian_allinone-rescue_MCP23017 U 0 40 Y Y 1 F N
+DEF Jumper_NO_Small-device JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_NO_Small-device" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# MCP23017-microchip
+#
+DEF MCP23017-microchip U 0 40 Y Y 1 F N
 F0 "U" -100 1025 50 H V R CNN
-F1 "zynthian_allinone-rescue_MCP23017" -100 950 50 H V R CNN
+F1 "MCP23017-microchip" -100 950 50 H V R CNN
 F2 "" 50 -950 50 H I L CNN
 F3 "" 250 1000 50 H I C CNN
 $FPLIST
@@ -308,11 +333,11 @@ X VCC 9 0 1000 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_PWR_FLAG
+# PWR_FLAG-power1
 #
-DEF zynthian_allinone-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power1 #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "zynthian_allinone-rescue_PWR_FLAG" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power1" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -321,11 +346,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# zynthian_allinone-rescue_R
+# R-device
 #
-DEF zynthian_allinone-rescue_R R 0 0 N Y 1 F N
+DEF R-device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "zynthian_allinone-rescue_R" 0 0 50 V V C CNN
+F1 "R-device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

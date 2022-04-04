@@ -1,35 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:zynthian_allinone-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -44,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X04_MALE CTRL-1
+L zynthian_allinone-rescue:CONN_01X04_MALE CTRL-1
 U 1 1 5919A2E4
 P 1550 5700
 F 0 "CTRL-1" H 1550 6075 50  0000 C CNN
@@ -55,7 +26,7 @@ F 3 "" H 1550 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L zynthian_allinone-rescue:GND #PWR01
 U 1 1 5919A2E6
 P 4950 5650
 F 0 "#PWR01" H 4950 5400 50  0001 C CNN
@@ -66,7 +37,7 @@ F 3 "" H 4950 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP23017 MCP23017
+L zynthian_allinone-rescue:MCP23017 MCP23017
 U 1 1 5919A2E7
 P 4450 4850
 F 0 "MCP23017" H 4350 5875 50  0000 R CNN
@@ -77,7 +48,7 @@ F 3 "" H 4700 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L zynthian_allinone-rescue:GND #PWR02
 U 1 1 5919A2E8
 P 4450 5850
 F 0 "#PWR02" H 4450 5600 50  0001 C CNN
@@ -88,7 +59,7 @@ F 3 "" H 4450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L zynthian_allinone-rescue:GND #PWR03
 U 1 1 5919A2EB
 P 1900 3250
 F 0 "#PWR03" H 1900 3000 50  0001 C CNN
@@ -99,7 +70,7 @@ F 3 "" H 1900 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L zynthian_allinone-rescue:GND #PWR04
 U 1 1 5919A2EC
 P 1850 4300
 F 0 "#PWR04" H 1850 4050 50  0001 C CNN
@@ -110,7 +81,7 @@ F 3 "" H 1850 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L zynthian_allinone-rescue:GND #PWR05
 U 1 1 5919A2ED
 P 1850 5400
 F 0 "#PWR05" H 1850 5150 50  0001 C CNN
@@ -121,7 +92,7 @@ F 3 "" H 1850 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L zynthian_allinone-rescue:GND #PWR06
 U 1 1 5919A2EE
 P 1850 6500
 F 0 "#PWR06" H 1850 6250 50  0001 C CNN
@@ -132,7 +103,7 @@ F 3 "" H 1850 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X20 RBPi-1
+L zynthian_allinone-rescue:CONN_02X20 RBPi-1
 U 1 1 5919A2EF
 P 6750 4550
 F 0 "RBPi-1" H 6750 5600 50  0000 C CNN
@@ -143,7 +114,7 @@ F 3 "" H 6750 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR07
+L zynthian_allinone-rescue:+5V #PWR07
 U 1 1 5919A2F0
 P 7300 3600
 F 0 "#PWR07" H 7300 3450 50  0001 C CNN
@@ -154,7 +125,7 @@ F 3 "" H 7300 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR08
+L zynthian_allinone-rescue:+3.3V #PWR08
 U 1 1 5919A2F1
 P 6400 3600
 F 0 "#PWR08" H 6400 3450 50  0001 C CNN
@@ -165,7 +136,7 @@ F 3 "" H 6400 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L zynthian_allinone-rescue:GND #PWR09
 U 1 1 5919A2F2
 P 7100 3800
 F 0 "#PWR09" H 7100 3550 50  0001 C CNN
@@ -176,7 +147,7 @@ F 3 "" H 7100 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L zynthian_allinone-rescue:GND #PWR010
 U 1 1 5919A2F3
 P 7100 4200
 F 0 "#PWR010" H 7100 3950 50  0001 C CNN
@@ -187,7 +158,7 @@ F 3 "" H 7100 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L zynthian_allinone-rescue:GND #PWR011
 U 1 1 5919A2F4
 P 7100 4500
 F 0 "#PWR011" H 7100 4250 50  0001 C CNN
@@ -198,7 +169,7 @@ F 3 "" H 7100 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L zynthian_allinone-rescue:GND #PWR012
 U 1 1 5919A2F5
 P 7100 5000
 F 0 "#PWR012" H 7100 4750 50  0001 C CNN
@@ -209,7 +180,7 @@ F 3 "" H 7100 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L zynthian_allinone-rescue:GND #PWR013
 U 1 1 5919A2F6
 P 7100 5200
 F 0 "#PWR013" H 7100 4950 50  0001 C CNN
@@ -220,7 +191,7 @@ F 3 "" H 7100 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L zynthian_allinone-rescue:GND #PWR014
 U 1 1 5919A2F7
 P 6400 4000
 F 0 "#PWR014" H 6400 3750 50  0001 C CNN
@@ -231,7 +202,7 @@ F 3 "" H 6400 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L zynthian_allinone-rescue:GND #PWR015
 U 1 1 5919A2F8
 P 6400 4800
 F 0 "#PWR015" H 6400 4550 50  0001 C CNN
@@ -242,7 +213,7 @@ F 3 "" H 6400 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L zynthian_allinone-rescue:GND #PWR016
 U 1 1 5919A2F9
 P 6400 5500
 F 0 "#PWR016" H 6400 5250 50  0001 C CNN
@@ -257,7 +228,7 @@ INTB
 Text Label 4950 4550 0    60   ~ 0
 INTA
 $Comp
-L CONN_01X04_MALE CTRL-3
+L zynthian_allinone-rescue:CONN_01X04_MALE CTRL-3
 U 1 1 5919A47B
 P 1550 3550
 F 0 "CTRL-3" H 1550 3925 50  0000 C CNN
@@ -268,7 +239,7 @@ F 3 "" H 1550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04_MALE CTRL-4
+L zynthian_allinone-rescue:CONN_01X04_MALE CTRL-4
 U 1 1 5919A47C
 P 1550 4600
 F 0 "CTRL-4" H 1550 4975 50  0000 C CNN
@@ -279,7 +250,7 @@ F 3 "" H 1550 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04_MALE CTRL-2
+L zynthian_allinone-rescue:CONN_01X04_MALE CTRL-2
 U 1 1 5919A47E
 P 1550 6800
 F 0 "CTRL-2" H 1550 7175 50  0000 C CNN
@@ -312,7 +283,7 @@ NoConn ~ 7000 5500
 NoConn ~ 7000 5400
 NoConn ~ 7000 5100
 $Comp
-L PWR_FLAG #FLG017
+L zynthian_allinone-rescue:PWR_FLAG #FLG017
 U 1 1 5919B924
 P 5000 2000
 F 0 "#FLG017" H 5000 2075 50  0001 C CNN
@@ -323,7 +294,7 @@ F 3 "" H 5000 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG018
+L zynthian_allinone-rescue:PWR_FLAG #FLG018
 U 1 1 5919B96A
 P 5500 2000
 F 0 "#FLG018" H 5500 2075 50  0001 C CNN
@@ -334,7 +305,7 @@ F 3 "" H 5500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR019
+L zynthian_allinone-rescue:+5V #PWR019
 U 1 1 5919B9AE
 P 4450 3700
 F 0 "#PWR019" H 4450 3550 50  0001 C CNN
@@ -345,7 +316,7 @@ F 3 "" H 4450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR020
+L zynthian_allinone-rescue:+5V #PWR020
 U 1 1 5919B9D8
 P 5000 2000
 F 0 "#PWR020" H 5000 1850 50  0001 C CNN
@@ -356,7 +327,7 @@ F 3 "" H 5000 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR021
+L zynthian_allinone-rescue:GND #PWR021
 U 1 1 5919B9F5
 P 5500 2000
 F 0 "#PWR021" H 5500 1750 50  0001 C CNN
@@ -367,7 +338,7 @@ F 3 "" H 5500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR022
+L zynthian_allinone-rescue:+3.3V #PWR022
 U 1 1 5919A2FA
 P 6400 4400
 F 0 "#PWR022" H 6400 4250 50  0001 C CNN
@@ -378,7 +349,7 @@ F 3 "" H 6400 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG023
+L zynthian_allinone-rescue:PWR_FLAG #FLG023
 U 1 1 5919BBF9
 P 4450 2000
 F 0 "#FLG023" H 4450 2075 50  0001 C CNN
@@ -389,7 +360,7 @@ F 3 "" H 4450 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR024
+L zynthian_allinone-rescue:+3.3V #PWR024
 U 1 1 5919BC39
 P 4450 2000
 F 0 "#PWR024" H 4450 1850 50  0001 C CNN
@@ -400,7 +371,7 @@ F 3 "" H 4450 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR025
+L zynthian_allinone-rescue:GND #PWR025
 U 1 1 5919A2EA
 P 5250 5450
 F 0 "#PWR025" H 5250 5200 50  0001 C CNN
@@ -411,7 +382,7 @@ F 3 "" H 5250 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L zynthian_allinone-rescue:GND #PWR026
 U 1 1 5919A2E9
 P 5100 5550
 F 0 "#PWR026" H 5100 5300 50  0001 C CNN
@@ -422,7 +393,7 @@ F 3 "" H 5100 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L H11L1 OC1
+L zynthian_allinone-rescue:H11L1 OC1
 U 1 1 5919DCA6
 P 12000 3700
 F 0 "OC1" H 12050 4050 50  0000 L CNN
@@ -433,7 +404,7 @@ F 3 "" H 11910 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1
+L zynthian_allinone-rescue:D D1
 U 1 1 5919DCF9
 P 10900 3650
 F 0 "D1" H 10900 3750 50  0000 C CNN
@@ -444,7 +415,7 @@ F 3 "" H 10900 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L zynthian_allinone-rescue:R R1
 U 1 1 5919DDB1
 P 10550 3500
 F 0 "R1" V 10630 3500 50  0000 C CNN
@@ -455,7 +426,7 @@ F 3 "" H 10550 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L zynthian_allinone-rescue:R R2
 U 1 1 5919DE44
 P 11250 3500
 F 0 "R2" V 11330 3500 50  0000 C CNN
@@ -466,7 +437,7 @@ F 3 "" H 11250 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L zynthian_allinone-rescue:R R3
 U 1 1 5919DFC7
 P 13000 3350
 F 0 "R3" V 13080 3350 50  0000 C CNN
@@ -477,7 +448,7 @@ F 3 "" H 13000 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L zynthian_allinone-rescue:R R4
 U 1 1 5919E03C
 P 13000 3950
 F 0 "R4" V 13080 3950 50  0000 C CNN
@@ -488,7 +459,7 @@ F 3 "" H 13000 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2
+L zynthian_allinone-rescue:D D2
 U 1 1 5919E092
 P 13300 3700
 F 0 "D2" H 13300 3800 50  0000 C CNN
@@ -499,7 +470,7 @@ F 3 "" H 13300 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L zynthian_allinone-rescue:GND #PWR027
 U 1 1 5919E442
 P 12000 4000
 F 0 "#PWR027" H 12000 3750 50  0001 C CNN
@@ -510,7 +481,7 @@ F 3 "" H 12000 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04_MALE MIDI-1
+L zynthian_allinone-rescue:CONN_01X04_MALE MIDI-1
 U 1 1 5919E470
 P 9850 3400
 F 0 "MIDI-1" H 9850 3775 50  0000 C CNN
@@ -562,11 +533,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 4400 6500 4400
 Wire Wire Line
-	4450 3700 4450 3850
+	4450 3700 4450 3750
 Wire Wire Line
 	4950 4050 4950 3750
 Wire Wire Line
-	4450 3750 5300 3750
+	4450 3750 4950 3750
 Connection ~ 4450 3750
 Wire Wire Line
 	7300 3600 7300 3700
@@ -645,21 +616,21 @@ Wire Wire Line
 Wire Wire Line
 	1850 3250 1900 3250
 Wire Wire Line
-	10700 3500 11100 3500
+	10700 3500 10900 3500
 Connection ~ 10900 3500
 Wire Wire Line
 	11400 3500 11700 3500
 Wire Wire Line
 	11700 3500 11700 3600
 Wire Wire Line
-	12300 3700 13150 3700
+	12300 3700 13000 3700
 Wire Wire Line
-	13000 3500 13000 3800
+	13000 3500 13000 3700
 Connection ~ 13000 3700
 Wire Wire Line
-	10150 3800 11700 3800
+	10150 3800 10900 3800
 Wire Wire Line
-	10150 3300 10150 3800
+	10150 3300 10150 3700
 Wire Wire Line
 	10400 3500 10150 3500
 Connection ~ 10150 3700
@@ -673,7 +644,7 @@ MIDI-IN
 Text Label 13000 4100 3    60   ~ 0
 MIDI-THRU
 $Comp
-L +5V #PWR028
+L zynthian_allinone-rescue:+5V #PWR028
 U 1 1 5919F161
 P 13000 3200
 F 0 "#PWR028" H 13000 3050 50  0001 C CNN
@@ -684,7 +655,7 @@ F 3 "" H 13000 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04_MALE MIDI-2
+L zynthian_allinone-rescue:CONN_01X04_MALE MIDI-2
 U 1 1 5919F25F
 P 9850 5200
 F 0 "MIDI-2" H 9850 5575 50  0000 C CNN
@@ -695,7 +666,7 @@ F 3 "" H 9850 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L zynthian_allinone-rescue:C C1
 U 1 1 5919F42E
 P 12500 3350
 F 0 "C1" H 12525 3450 50  0000 L CNN
@@ -706,7 +677,7 @@ F 3 "" H 12500 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L zynthian_allinone-rescue:GND #PWR029
 U 1 1 5919F531
 P 12500 3500
 F 0 "#PWR029" H 12500 3250 50  0001 C CNN
@@ -719,10 +690,10 @@ $EndComp
 Wire Wire Line
 	12000 3400 12000 3200
 Wire Wire Line
-	12000 3200 13000 3200
+	12000 3200 12500 3200
 Connection ~ 12500 3200
 $Comp
-L R R6
+L zynthian_allinone-rescue:R R6
 U 1 1 5919F6FF
 P 11100 5050
 F 0 "R6" V 11180 5050 50  0000 C CNN
@@ -733,7 +704,7 @@ F 3 "" H 11100 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L zynthian_allinone-rescue:R R5
 U 1 1 5919F79A
 P 10750 4900
 F 0 "R5" V 10830 4900 50  0000 C CNN
@@ -744,7 +715,7 @@ F 3 "" H 10750 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D3
+L zynthian_allinone-rescue:D D3
 U 1 1 5919F8C5
 P 10450 5050
 F 0 "D3" H 10450 5150 50  0000 C CNN
@@ -755,7 +726,7 @@ F 3 "" H 10450 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR030
+L zynthian_allinone-rescue:GND #PWR030
 U 1 1 5919F942
 P 10300 5600
 F 0 "#PWR030" H 10300 5350 50  0001 C CNN
@@ -768,22 +739,22 @@ $EndComp
 Wire Wire Line
 	10150 5500 10300 5500
 Wire Wire Line
-	10300 5100 10300 5600
+	10300 5100 10300 5500
 Wire Wire Line
-	10150 4900 10600 4900
+	10150 4900 10450 4900
 Connection ~ 10450 4900
 Wire Wire Line
-	10150 5300 11100 5300
+	10150 5300 10450 5300
 Wire Wire Line
 	10450 5300 10450 5200
 Wire Wire Line
-	10900 4900 11950 4900
+	10900 4900 11100 4900
 Connection ~ 11100 4900
 Wire Wire Line
-	11100 5200 11100 5500
+	11100 5200 11100 5300
 Connection ~ 10450 5300
 $Comp
-L C C2
+L zynthian_allinone-rescue:C C2
 U 1 1 5919FCEA
 P 11500 5050
 F 0 "C2" H 11525 5150 50  0000 L CNN
@@ -796,7 +767,7 @@ $EndComp
 Connection ~ 11500 4900
 Connection ~ 11100 5300
 $Comp
-L GND #PWR031
+L zynthian_allinone-rescue:GND #PWR031
 U 1 1 591A0093
 P 11500 5200
 F 0 "#PWR031" H 11500 4950 50  0001 C CNN
@@ -807,7 +778,7 @@ F 3 "" H 11500 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L H11L1 OC2
+L zynthian_allinone-rescue:H11L1 OC2
 U 1 1 591A01D3
 P 11950 5500
 F 0 "OC2" H 12000 5850 50  0000 L CNN
@@ -820,7 +791,7 @@ $EndComp
 Wire Wire Line
 	11100 5500 11650 5500
 $Comp
-L +5V #PWR032
+L zynthian_allinone-rescue:+5V #PWR032
 U 1 1 591A03EF
 P 11950 4800
 F 0 "#PWR032" H 11950 4650 50  0001 C CNN
@@ -831,7 +802,7 @@ F 3 "" H 11950 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11950 4800 11950 5200
+	11950 4800 11950 4900
 Connection ~ 11950 4900
 Wire Wire Line
 	10150 5100 10300 5100
@@ -839,7 +810,7 @@ Connection ~ 10300 5500
 Text Label 12250 5400 0    60   ~ 0
 MIDI-THRU
 $Comp
-L GND #PWR033
+L zynthian_allinone-rescue:GND #PWR033
 U 1 1 591A08D7
 P 12250 5600
 F 0 "#PWR033" H 12250 5350 50  0001 C CNN
@@ -850,7 +821,7 @@ F 3 "" H 12250 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L zynthian_allinone-rescue:GND #PWR034
 U 1 1 591A0924
 P 11950 5800
 F 0 "#PWR034" H 11950 5550 50  0001 C CNN
@@ -861,7 +832,7 @@ F 3 "" H 11950 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04_MALE MIDI-3
+L zynthian_allinone-rescue:CONN_01X04_MALE MIDI-3
 U 1 1 591A11B8
 P 9850 6850
 F 0 "MIDI-3" H 9850 7225 50  0000 C CNN
@@ -872,7 +843,7 @@ F 3 "" H 9850 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L zynthian_allinone-rescue:R R7
 U 1 1 591A124C
 P 10750 6550
 F 0 "R7" V 10830 6550 50  0000 C CNN
@@ -883,7 +854,7 @@ F 3 "" H 10750 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D4
+L zynthian_allinone-rescue:D D4
 U 1 1 591A12DC
 P 10450 6700
 F 0 "D4" H 10450 6800 50  0000 C CNN
@@ -894,7 +865,7 @@ F 3 "" H 10450 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R8
+L zynthian_allinone-rescue:R R8
 U 1 1 591A139A
 P 11100 6700
 F 0 "R8" V 11180 6700 50  0000 C CNN
@@ -905,7 +876,7 @@ F 3 "" H 11100 6700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C3
+L zynthian_allinone-rescue:C C3
 U 1 1 591A1430
 P 11500 6700
 F 0 "C3" H 11525 6800 50  0000 L CNN
@@ -916,7 +887,7 @@ F 3 "" H 11500 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L zynthian_allinone-rescue:GND #PWR035
 U 1 1 591A14B7
 P 11500 6850
 F 0 "#PWR035" H 11500 6600 50  0001 C CNN
@@ -927,7 +898,7 @@ F 3 "" H 11500 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L zynthian_allinone-rescue:GND #PWR036
 U 1 1 591A1513
 P 10300 7250
 F 0 "#PWR036" H 10300 7000 50  0001 C CNN
@@ -938,19 +909,19 @@ F 3 "" H 10300 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10150 6550 10600 6550
+	10150 6550 10450 6550
 Connection ~ 10450 6550
 Wire Wire Line
-	10900 6550 11950 6550
+	10900 6550 11100 6550
 Connection ~ 11100 6550
 Wire Wire Line
-	10150 6950 11100 6950
+	10150 6950 10450 6950
 Wire Wire Line
 	10450 6850 10450 6950
 Connection ~ 10450 6950
 Connection ~ 11100 6950
 $Comp
-L H11L1 OC3
+L zynthian_allinone-rescue:H11L1 OC3
 U 1 1 591A1BB7
 P 11950 7150
 F 0 "OC3" H 12000 7500 50  0000 L CNN
@@ -963,9 +934,9 @@ $EndComp
 Wire Wire Line
 	11100 7150 11650 7150
 Wire Wire Line
-	11100 6850 11100 7150
+	11100 6850 11100 6950
 $Comp
-L +5V #PWR037
+L zynthian_allinone-rescue:+5V #PWR037
 U 1 1 591A1DA1
 P 11950 6450
 F 0 "#PWR037" H 11950 6300 50  0001 C CNN
@@ -976,11 +947,11 @@ F 3 "" H 11950 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11950 6450 11950 6850
+	11950 6450 11950 6550
 Connection ~ 11500 6550
 Connection ~ 11950 6550
 $Comp
-L GND #PWR038
+L zynthian_allinone-rescue:GND #PWR038
 U 1 1 591A1F11
 P 12250 7250
 F 0 "#PWR038" H 12250 7000 50  0001 C CNN
@@ -991,7 +962,7 @@ F 3 "" H 12250 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L zynthian_allinone-rescue:GND #PWR039
 U 1 1 591A1F6D
 P 11950 7450
 F 0 "#PWR039" H 11950 7200 50  0001 C CNN
@@ -1004,12 +975,12 @@ $EndComp
 Wire Wire Line
 	10150 7150 10300 7150
 Wire Wire Line
-	10300 6750 10300 7250
+	10300 6750 10300 7150
 Wire Wire Line
 	10150 6750 10300 6750
 Connection ~ 10300 7150
 $Comp
-L R R9
+L zynthian_allinone-rescue:R R9
 U 1 1 591A24A4
 P 12400 7050
 F 0 "R9" V 12480 7050 50  0000 C CNN
@@ -1022,7 +993,7 @@ $EndComp
 Text Label 12550 7050 0    60   ~ 0
 MIDI-OUT
 $Comp
-L R R10
+L zynthian_allinone-rescue:R R10
 U 1 1 591A45D5
 P 7600 4000
 F 0 "R10" V 7680 4000 50  0000 C CNN
@@ -1033,7 +1004,7 @@ F 3 "" H 7600 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR040
+L zynthian_allinone-rescue:+3.3V #PWR040
 U 1 1 591A4661
 P 7750 4000
 F 0 "#PWR040" H 7750 3850 50  0001 C CNN
@@ -1044,7 +1015,7 @@ F 3 "" H 7750 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 4000 7450 4000
+	7000 4000 7350 4000
 Wire Wire Line
 	7350 4000 7350 4250
 Wire Wire Line
@@ -1073,7 +1044,7 @@ INTA
 Text Label 7600 5850 0    60   ~ 0
 INTB
 $Comp
-L C C4
+L zynthian_allinone-rescue:C C4
 U 1 1 591ACB40
 P 5300 3900
 F 0 "C4" H 5325 4000 50  0000 L CNN
@@ -1084,7 +1055,7 @@ F 3 "" H 5300 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L zynthian_allinone-rescue:GND #PWR041
 U 1 1 591ACD80
 P 5300 4050
 F 0 "#PWR041" H 5300 3800 50  0001 C CNN
@@ -1096,7 +1067,7 @@ F 3 "" H 5300 4050 50  0001 C CNN
 $EndComp
 Connection ~ 4950 3750
 $Comp
-L CONN_01X05 SW-1
+L zynthian_allinone-rescue:CONN_01X05 SW-1
 U 1 1 5B111921
 P 6800 6600
 F 0 "SW-1" H 6800 6900 50  0000 C CNN
@@ -1129,7 +1100,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 6800 6600 6800
 $Comp
-L GND #PWR042
+L zynthian_allinone-rescue:GND #PWR042
 U 1 1 5B112FD7
 P 6600 6400
 F 0 "#PWR042" H 6600 6150 50  0001 C CNN
@@ -1139,4 +1110,50 @@ F 3 "" H 6600 6400 50  0001 C CNN
 	1    6600 6400
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4450 3750 4450 3850
+Wire Wire Line
+	10900 3500 11100 3500
+Wire Wire Line
+	13000 3700 13150 3700
+Wire Wire Line
+	13000 3700 13000 3800
+Wire Wire Line
+	10150 3700 10150 3800
+Wire Wire Line
+	10900 3800 11700 3800
+Wire Wire Line
+	12500 3200 13000 3200
+Wire Wire Line
+	10450 4900 10600 4900
+Wire Wire Line
+	11100 4900 11500 4900
+Wire Wire Line
+	10450 5300 11100 5300
+Wire Wire Line
+	11500 4900 11950 4900
+Wire Wire Line
+	11100 5300 11100 5500
+Wire Wire Line
+	11950 4900 11950 5200
+Wire Wire Line
+	10300 5500 10300 5600
+Wire Wire Line
+	10450 6550 10600 6550
+Wire Wire Line
+	11100 6550 11500 6550
+Wire Wire Line
+	10450 6950 11100 6950
+Wire Wire Line
+	11100 6950 11100 7150
+Wire Wire Line
+	11500 6550 11950 6550
+Wire Wire Line
+	11950 6550 11950 6850
+Wire Wire Line
+	10300 7150 10300 7250
+Wire Wire Line
+	7350 4000 7450 4000
+Wire Wire Line
+	4950 3750 5300 3750
 $EndSCHEMATC
