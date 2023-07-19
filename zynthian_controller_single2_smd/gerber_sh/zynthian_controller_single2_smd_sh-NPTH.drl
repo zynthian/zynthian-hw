@@ -1,8 +1,8 @@
 M48
-;DRILL file {KiCad 5.0.2-5.fc29} date mié 27 feb 2019 20:28:50 CET
-;FORMAT={-:-/ absolute / inch / decimal}
+;DRILL file {KiCad 5.0.2-5.fc29} date lun 25 abr 2022 14:20:39 CEST
+;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
-INCH,TZ
+METRIC,TZ
 %
 G90
 G05

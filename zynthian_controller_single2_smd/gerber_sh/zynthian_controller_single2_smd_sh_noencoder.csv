@@ -1,0 +1,5 @@
+PCB References,Package,Quantity,Name,Price,Supplier URL
+SW1,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,0,Don’t solder!,0,Don’t solder!
+C1,C_0805_2012Metric,1,C 100nF,"0,0254",https://www.digikey.es/es/products/detail/kemet/C0805C104M3RAC7800/2211748
+"C2,C3",C_0805_2012Metric,2,C 10nF,"0,0279",https://www.digikey.es/es/products/detail/kemet/C0805C103J5RAC7210/8572451
+J1,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,1,CONN_01X04,"0,1",https://es.aliexpress.com/item/4000994307405.html

@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 11)
-    (tracks 74)
+    (tracks 75)
     (zones 0)
     (modules 5)
     (nets 5)
@@ -62,7 +62,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_80000001)
+      (layerselection 0x310fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -353,6 +353,7 @@
   (gr_line (start 164.084 94.996) (end 164.084 119.888) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 148.844 94.996) (end 164.084 94.996) (angle 90) (layer Edge.Cuts) (width 0.15))
 
+  (via (at 162.60064 96.7105) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 158.924 111.1758) (end 158.877 111.125) (width 0.25) (layer B.Cu) (net 1) (status 80000))
   (segment (start 158.877 111.125) (end 158.877 112.522) (width 0.25) (layer B.Cu) (net 1) (status 80000))
   (segment (start 158.877 112.522) (end 155.956 115.443) (width 0.25) (layer B.Cu) (net 1) (status 80000))
@@ -428,7 +429,7 @@
   (segment (start 162.814 115.443) (end 161.798 114.427) (width 0.25) (layer F.Cu) (net 4) (status 80000))
   (segment (start 161.798 114.427) (end 161.798 114.3475) (width 0.25) (layer F.Cu) (net 4) (status 80000))
 
-  (zone (net 4) (net_name CON-4) (layer F.Cu) (tstamp 5BA3E208) (hatch edge 0.508)
+  (zone (net 4) (net_name CON-4) (layer F.Cu) (tstamp 5C76E57A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -511,8 +512,16 @@
         (xy 149.554 101.4925) (xy 149.554 95.706) (xy 152.581561 95.706)
       )
     )
+    (filled_polygon
+      (pts
+        (xy 163.374 101.545955) (xy 163.271765 101.477643) (xy 163.024 101.42836) (xy 161.415 101.42836) (xy 161.415 98.499848)
+        (xy 161.429888 98.425) (xy 161.415 98.350152) (xy 161.415 98.350148) (xy 161.370904 98.128463) (xy 161.370904 98.128462)
+        (xy 161.245329 97.940527) (xy 161.202929 97.877071) (xy 161.139473 97.834671) (xy 160.484846 97.180045) (xy 160.559 97.001022)
+        (xy 160.559 96.350578) (xy 160.310086 95.749647) (xy 160.266439 95.706) (xy 163.374 95.706)
+      )
+    )
   )
-  (zone (net 4) (net_name CON-4) (layer B.Cu) (tstamp 5BA3E226) (hatch edge 0.508)
+  (zone (net 4) (net_name CON-4) (layer B.Cu) (tstamp 5C76E577) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-5.fc29*
-G04 #@! TF.CreationDate,2019-02-27T20:31:01+01:00*
+G04 #@! TF.CreationDate,2022-04-25T14:20:45+02:00*
 G04 #@! TF.ProjectId,zynthian_controller_single2_smd_sh,7a796e74-6869-4616-9e5f-636f6e74726f,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L2,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.2-5.fc29) date mié 27 feb 2019 20:31:01 CET*
+G04 Created by KiCad (PCBNEW 5.0.2-5.fc29) date lun 25 abr 2022 14:20:45 CEST*
 %MOMM*%
 %LPD*%
 G01*
@@ -50,6 +50,8 @@ G04 #@! TO.P,SW1,S1*
 X158924000Y-96675800D03*
 G04 #@! TD*
 D13*
+G04 #@! TO.N,CON-4*
+X162600640Y-96710500D03*
 G04 #@! TO.N,CON-2*
 X155956000Y-115443000D03*
 X157988000Y-117348000D03*
