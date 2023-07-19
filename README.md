@@ -4,7 +4,9 @@
 
 The [ZynthianOS SD-image](https://os.zynthian.org/zynthianos-last-stable.zip) includes all the software you need for building a ZynthianBox, including a good amount of sound libraries and presets. This repository contains the Electronic Hardware Stuff: PCBs, schemes, parts specifications, pin assignment, ...
 
-![Image of Zynthian Box Design](http://zynthian.org/img/github/zynthian_v4_alzado_planta_nomargin.png)
+![Image of Zynthian V5](https://github.com/zynthian/zynthian-hw/blob/master/doc/zynthian_v5_render_orto_leds.jpg)
+
+![Image of Zynthian V4](https://github.com/zynthian/zynthian-hw/blob/master/doc/zynthian_v4_alzado_planta_nomargin.png)
 
 A [Zynthian Box](https://wiki.zynthian.org/index.php/Zynthian_Wiki_Home) is a hardware device that runs the zynthian's software stack. Although it's not a closed hardware specification, there is a (more or less) cannonical recomendation:
 
