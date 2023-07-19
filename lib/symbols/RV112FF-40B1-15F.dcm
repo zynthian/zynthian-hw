@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RV112FF-40B1-15F
+D Potentiometers 11mm 20Kohms 5-15VDC Flat Shaft {001}
+K
+F http://www.taiwanalpha.com/downloads?target=products&id=79
+$ENDCMP
+#
+#End Doc Library

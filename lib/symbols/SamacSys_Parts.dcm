@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP RV142
+D Potentiometers 14mm w/Switch 20K Flat Shaft
+$ENDCMP
+#
+$CMP RV142FPF-40B1-15F-0B20K-004
+D Potentiometers 14mm w/Switch 20K Flat Shaft
+$ENDCMP
+#
+#End Doc Library

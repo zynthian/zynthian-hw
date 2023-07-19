@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC3G17
+D Triple Buffer Schmitt, Low-Voltage CMOS
+K Triple Buf Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP WS2812B
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+$ENDCMP
+#
+#End Doc Library

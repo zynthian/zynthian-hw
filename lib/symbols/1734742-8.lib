@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1734742-8
+#
+DEF 1734742-8 J 0 40 Y Y 1 L N
+F0 "J" -200 550 50 H V L BNN
+F1 "1734742-8" -200 -650 50 H V L BNN
+F2 "TE_1734742-8" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "1734742-8" 0 0 50 H I L BNN "Comment"
+F5 "Compliant" 0 0 50 H I L BNN "EU_RoHS_Compliance"
+DRAW
+S -200 -600 200 500 0 0 10 f
+X 1 1 -400 400 200 R 40 40 0 0 P 
+X 2 2 -400 300 200 R 40 40 0 0 P 
+X 3 3 -400 200 200 R 40 40 0 0 P 
+X 4 4 -400 100 200 R 40 40 0 0 P 
+X 5 5 -400 0 200 R 40 40 0 0 P 
+X 6 6 -400 -100 200 R 40 40 0 0 P 
+X SHIELD S1 -400 -500 200 R 40 40 0 0 P 
+X SHIELD S2 -400 -500 200 R 40 40 0 0 P 
+X 7 7 -400 -200 200 R 40 40 0 0 P 
+X 8 8 -400 -300 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

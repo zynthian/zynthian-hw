@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1042
+#
+DEF 1042 BT 0 40 Y N 1 L N
+F0 "BT" -50 125 50 H V L BNN
+F1 "1042" -50 -200 50 H V L BNN
+F2 "BAT_1042" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "KEYSTONE" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 16 -25 25 -25 0 N
+P 2 0 0 6 -100 0 -25 0 N
+P 2 0 0 16 -25 0 -25 -25 N
+P 2 0 0 16 25 100 25 0 N
+P 2 0 0 6 25 0 100 0 N
+P 2 0 0 16 25 0 25 -100 N
+X ~ - -200 0 100 R 40 40 0 0 P 
+X ~ + 200 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

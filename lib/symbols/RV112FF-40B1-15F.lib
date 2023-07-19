@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RV112FF-40B1-15F
+#/14976697/575149/2.49/6/4/Variable Resistor
+DEF RV112FF-40B1-15F VR 0 30 Y Y 1 F N
+F0 "VR" 1050 300 50 H V L CNN
+F1 "RV112FF-40B1-15F" 1050 200 50 H V L CNN
+F2 "RV112FF40B115F" 1050 100 50 H I L CNN
+F3 "http://www.taiwanalpha.com/downloads?target=products&id=79" 1050 0 50 H I L CNN
+F4 "Potentiometers 11mm 20Kohms 5-15VDC Flat Shaft {001}" 1050 -100 50 H I L CNN "Description"
+F5 "25" 1050 -200 50 H I L CNN "Height"
+F6 "Alpha (Taiwan)" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "RV112FF-40B1-15F" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CCW A1 0 -100 200 R 50 50 0 0 P
+X WIPER_1 A2 0 0 200 R 50 50 0 0 P
+X CW A3 0 -300 200 R 50 50 0 0 P
+X WIPER_2 B2 0 -200 200 R 50 50 0 0 P
+X MH1 MH1 1200 0 200 L 50 50 0 0 P
+X MH2 MH2 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
