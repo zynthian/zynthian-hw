@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/txino/Zynthian/zynthian-hw/Zynface_V5/Zynface_V5.kicad_sch</source>
+    <date>dom 14 may 2023 18:12:20</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Zynthian Zynaptik circuit</title>
+        <company>Zynthian</company>
+        <rev>0.1</rev>
+        <date/>
+        <source>Zynface_V5.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Zynface_V5-rescue" part="C-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000591acb40</tstamps>
+    </comp>
+    <comp ref="CV-IN1">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4db369b-b42a-40b1-9a16-6216030a3925</tstamps>
+    </comp>
+    <comp ref="CV-IN2">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>565ce33f-f931-4b11-9e53-e01438b4d7fc</tstamps>
+    </comp>
+    <comp ref="CV-IN3">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f2424d4-5bd5-4319-b4a6-57a4eb753c4e</tstamps>
+    </comp>
+    <comp ref="CV-IN4">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aebf55df-ca3d-4c27-9600-0408977029a8</tstamps>
+    </comp>
+    <comp ref="CV-OUT1">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7f2c78b-7bcf-4639-8735-3f09475a0ed4</tstamps>
+    </comp>
+    <comp ref="CV-OUT2">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c246874-eead-4c78-8fcc-58dc516ba6e0</tstamps>
+    </comp>
+    <comp ref="CV-OUT3">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f57cf38-c7c5-4eb9-bf5d-c9871ec28cb0</tstamps>
+    </comp>
+    <comp ref="CV-OUT4">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e6adda2-de88-41a4-b7ea-02f7d87cbff7</tstamps>
+    </comp>
+    <comp ref="EXT-1">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d35f16f-5347-46c7-a6e7-3e1d94fa1236</tstamps>
+    </comp>
+    <comp ref="Gate-IN1">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>713d4cee-69ac-412d-8295-736f761fe16d</tstamps>
+    </comp>
+    <comp ref="Gate-IN2">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75436353-50d3-4b63-a11d-5aa91889003b</tstamps>
+    </comp>
+    <comp ref="Gate-IN3">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24281166-62a5-4a50-a087-9001ad45064a</tstamps>
+    </comp>
+    <comp ref="Gate-IN4">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39255d0c-e5a1-466c-956d-a65101e49486</tstamps>
+    </comp>
+    <comp ref="Gate-OUT1">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>803dada8-f35c-4283-a0b6-bcf29ffa99f8</tstamps>
+    </comp>
+    <comp ref="Gate-OUT2">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f14067bd-4ea6-494e-af1e-3ebde2c7e54d</tstamps>
+    </comp>
+    <comp ref="Gate-OUT3">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cbb862f-78b0-4393-9d60-9cab14cba42c</tstamps>
+    </comp>
+    <comp ref="Gate-OUT4">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85085ba4-27e9-4324-b1b1-566032d26aaa</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08</value>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11dd7a80-ec8b-4214-9193-eba4fb08a2e8</tstamps>
+    </comp>
+    <comp ref="MCP23017">
+      <value>MCP23017</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm</footprint>
+      <libsource lib="Zynface_V5-rescue" part="MCP23017-microchip" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005919a2e7</tstamps>
+    </comp>
+    <comp ref="MOD-1">
+      <value>ADS1115</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Zynface_V5-rescue" part="CONN_01X10-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cad7c98</tstamps>
+    </comp>
+    <comp ref="MOD-2">
+      <value>MCP4728</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Zynface_V5-rescue" part="CONN_01X10-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Zynface_V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cb0abf3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack2_SwitchT">
+      <description>Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_SwitchT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Zynface_V5-rescue" part="C-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Zynface_V5-rescue" part="CONN_01X10-conn">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X10-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Zynface_V5-rescue" part="MCP23017-microchip">
+      <footprints>
+        <fp>DIP-28_W7.62mm*</fp>
+        <fp>SOIC-28</fp>
+        <fp>SSOP-28</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23017-microchip</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="bidirectional"/>
+        <pin num="2" name="GPB1" type="bidirectional"/>
+        <pin num="3" name="GPB2" type="bidirectional"/>
+        <pin num="4" name="GPB3" type="bidirectional"/>
+        <pin num="5" name="GPB4" type="bidirectional"/>
+        <pin num="6" name="GPB5" type="bidirectional"/>
+        <pin num="7" name="GPB6" type="bidirectional"/>
+        <pin num="8" name="GPB7" type="bidirectional"/>
+        <pin num="9" name="VCC" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="12" name="SCL" type="input"/>
+        <pin num="13" name="SDA" type="bidirectional"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~{RESET}" type="input"/>
+        <pin num="19" name="INTB" type="output"/>
+        <pin num="20" name="INTA" type="output"/>
+        <pin num="21" name="GPA0" type="bidirectional"/>
+        <pin num="22" name="GPA1" type="bidirectional"/>
+        <pin num="23" name="GPA2" type="bidirectional"/>
+        <pin num="24" name="GPA3" type="bidirectional"/>
+        <pin num="25" name="GPA4" type="bidirectional"/>
+        <pin num="26" name="GPA5" type="bidirectional"/>
+        <pin num="27" name="GPA6" type="bidirectional"/>
+        <pin num="28" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Zynface_V5-rescue">
+      <uri>/home/txino/Zynthian/zynthian-hw/Zynface_V5/Zynface_V5-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="+5V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="EXT-1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MCP23017" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="MCP23017" pin="18" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="MCP23017" pin="9" pinfunction="VCC" pintype="power_in"/>
+      <node ref="MOD-1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="MOD-2" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="3" name="CV-IN1">
+      <node ref="CV-IN1" pin="T" pintype="passive"/>
+      <node ref="MOD-1" pin="7" pinfunction="P7" pintype="passive"/>
+    </net>
+    <net code="4" name="CV-IN2">
+      <node ref="CV-IN2" pin="T" pintype="passive"/>
+      <node ref="MOD-1" pin="8" pinfunction="P8" pintype="passive"/>
+    </net>
+    <net code="5" name="CV-IN3">
+      <node ref="CV-IN3" pin="T" pintype="passive"/>
+      <node ref="MOD-1" pin="9" pinfunction="P9" pintype="passive"/>
+    </net>
+    <net code="6" name="CV-IN4">
+      <node ref="CV-IN4" pin="T" pintype="passive"/>
+      <node ref="MOD-1" pin="10" pinfunction="P10" pintype="passive"/>
+    </net>
+    <net code="7" name="CV-OUT1">
+      <node ref="CV-OUT1" pin="T" pintype="passive"/>
+      <node ref="MOD-2" pin="7" pinfunction="P7" pintype="passive"/>
+    </net>
+    <net code="8" name="CV-OUT2">
+      <node ref="CV-OUT2" pin="T" pintype="passive"/>
+      <node ref="MOD-2" pin="8" pinfunction="P8" pintype="passive"/>
+    </net>
+    <net code="9" name="CV-OUT3">
+      <node ref="CV-OUT3" pin="T" pintype="passive"/>
+      <node ref="MOD-2" pin="9" pinfunction="P9" pintype="passive"/>
+    </net>
+    <net code="10" name="CV-OUT4">
+      <node ref="CV-OUT4" pin="T" pintype="passive"/>
+      <node ref="MOD-2" pin="10" pinfunction="P10" pintype="passive"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="CV-IN1" pin="S" pintype="passive"/>
+      <node ref="CV-IN1" pin="TN" pintype="passive"/>
+      <node ref="CV-IN2" pin="S" pintype="passive"/>
+      <node ref="CV-IN2" pin="TN" pintype="passive"/>
+      <node ref="CV-IN3" pin="S" pintype="passive"/>
+      <node ref="CV-IN3" pin="TN" pintype="passive"/>
+      <node ref="CV-IN4" pin="S" pintype="passive"/>
+      <node ref="CV-IN4" pin="TN" pintype="passive"/>
+      <node ref="CV-OUT1" pin="S" pintype="passive"/>
+      <node ref="CV-OUT1" pin="TN" pintype="passive"/>
+      <node ref="CV-OUT2" pin="S" pintype="passive"/>
+      <node ref="CV-OUT2" pin="TN" pintype="passive"/>
+      <node ref="CV-OUT3" pin="S" pintype="passive"/>
+      <node ref="CV-OUT3" pin="TN" pintype="passive"/>
+      <node ref="CV-OUT4" pin="S" pintype="passive"/>
+      <node ref="CV-OUT4" pin="TN" pintype="passive"/>
+      <node ref="EXT-1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Gate-IN1" pin="S" pintype="passive"/>
+      <node ref="Gate-IN1" pin="TN" pintype="passive"/>
+      <node ref="Gate-IN2" pin="S" pintype="passive"/>
+      <node ref="Gate-IN2" pin="TN" pintype="passive"/>
+      <node ref="Gate-IN3" pin="S" pintype="passive"/>
+      <node ref="Gate-IN3" pin="TN" pintype="passive"/>
+      <node ref="Gate-IN4" pin="S" pintype="passive"/>
+      <node ref="Gate-IN4" pin="TN" pintype="passive"/>
+      <node ref="Gate-OUT1" pin="S" pintype="passive"/>
+      <node ref="Gate-OUT1" pin="TN" pintype="passive"/>
+      <node ref="Gate-OUT2" pin="S" pintype="passive"/>
+      <node ref="Gate-OUT2" pin="TN" pintype="passive"/>
+      <node ref="Gate-OUT3" pin="S" pintype="passive"/>
+      <node ref="Gate-OUT3" pin="TN" pintype="passive"/>
+      <node ref="Gate-OUT4" pin="S" pintype="passive"/>
+      <node ref="Gate-OUT4" pin="TN" pintype="passive"/>
+      <node ref="MCP23017" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="MCP23017" pin="15" pinfunction="A0" pintype="input"/>
+      <node ref="MCP23017" pin="17" pinfunction="A2" pintype="input"/>
+      <node ref="MOD-1" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="MOD-2" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="12" name="GPB0">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MCP23017" pin="1" pinfunction="GPB0" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GPB1">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MCP23017" pin="2" pinfunction="GPB1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GPB2">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="MCP23017" pin="3" pinfunction="GPB2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="GPB3">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="MCP23017" pin="4" pinfunction="GPB3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="GPB4">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="MCP23017" pin="5" pinfunction="GPB4" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="GPB5">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="MCP23017" pin="6" pinfunction="GPB5" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="GPB6">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="MCP23017" pin="7" pinfunction="GPB6" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="GPB7">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="MCP23017" pin="8" pinfunction="GPB7" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Gate-IN1">
+      <node ref="Gate-IN1" pin="T" pintype="passive"/>
+      <node ref="MCP23017" pin="21" pinfunction="GPA0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Gate-IN2">
+      <node ref="Gate-IN2" pin="T" pintype="passive"/>
+      <node ref="MCP23017" pin="22" pinfunction="GPA1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Gate-IN3">
+      <node ref="Gate-IN3" pin="T" pintype="passive"/>
+      <node ref="MCP23017" pin="23" pinfunction="GPA2" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Gate-IN4">
+      <node ref="Gate-IN4" pin="T" pintype="passive"/>
+      <node ref="MCP23017" pin="24" pinfunction="GPA3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Gate-OUT1">
+      <node ref="Gate-OUT1" pin="T" pintype="passive"/>
+      <node ref="MCP23017" pin="25" pinfunction="GPA4" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Gate-OUT2">
+      <node ref="Gate-OUT2" pin="T" pintype="passive"/>
+      <node ref="MCP23017" pin="26" pinfunction="GPA5" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Gate-OUT3">
+      <node ref="Gate-OUT3" pin="T" pintype="passive"/>
+      <node ref="MCP23017" pin="27" pinfunction="GPA6" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Gate-OUT4">
+      <node ref="Gate-OUT4" pin="T" pintype="passive"/>
+      <node ref="MCP23017" pin="28" pinfunction="GPA7" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="INTA">
+      <node ref="EXT-1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="MCP23017" pin="20" pinfunction="INTA" pintype="output"/>
+    </net>
+    <net code="29" name="INTB">
+      <node ref="EXT-1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="MCP23017" pin="19" pinfunction="INTB" pintype="output"/>
+    </net>
+    <net code="30" name="SCL">
+      <node ref="EXT-1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="MCP23017" pin="12" pinfunction="SCL" pintype="input"/>
+      <node ref="MOD-1" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="MOD-2" pin="3" pinfunction="P3" pintype="passive"/>
+    </net>
+    <net code="31" name="SDA">
+      <node ref="EXT-1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MCP23017" pin="13" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="MOD-1" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="MOD-2" pin="4" pinfunction="P4" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(MOD-1-Pad5)">
+      <node ref="MOD-1" pin="5" pinfunction="P5" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(MOD-1-Pad6)">
+      <node ref="MOD-1" pin="6" pinfunction="P6" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(MOD-2-Pad5)">
+      <node ref="MOD-2" pin="5" pinfunction="P5" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(MOD-2-Pad6)">
+      <node ref="MOD-2" pin="6" pinfunction="P6" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
