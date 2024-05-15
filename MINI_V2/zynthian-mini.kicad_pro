@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber-v2/",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../zynthian-case/Mini_V2_3d_printable/zynthian-mini-PCB-v2-rev2.step",
