@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "gy-pcm5102")(type "Legacy")(uri "${KIPRJMOD}/gy-pcm5102.lib")(options "")(descr ""))
+)
