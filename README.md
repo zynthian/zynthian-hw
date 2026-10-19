@@ -1,8 +1,8 @@
 # Zynthian Hardware
 
-[Zynthian](http://zynthian.org) is an Open Synth Platform based in Raspberry Pi, Linux (Raspbian) and Free Software Synthesizers (mostly).
+[Zynthian](http://zynthian.org) is an Open Synth Platform based in Raspberry Pi, Linux (Raspbian) and Free Software Synthesizers.
 
-The [ZynthianOS SD-image](https://os.zynthian.org/zynthianos-last-stable.zip) includes all the software you need for building a ZynthianBox, including a good amount of soundfonts and presets.
+The [ZynthianOS SD-image](https://os.zynthian.org/zynthianos-last-stable.zip) has all the software you need for building a ZynthianBox, including a good amount of soundfonts and presets.
 
 This repository contains the electronic hardware stuff: PCBs, schemes, part specifications, pin assignment, ...
 
@@ -15,11 +15,9 @@ A [Zynthian Box](https://wiki.zynthian.org/index.php/Zynthian_Wiki_Home) is a ha
 + Raspberry Pi 3/4/5
 + Supported Soundcard (ZynADAC, HifiBerry, and many more!)
 + Spported Display (Zynscreen, PiScreen, PiTFT, Waveshare, HDMI, DSI, etc.)
-+ Zynthian controllers (4 rotary encoders + switches)
-+ GPIO expander (MCP23017) => Highly recommended. You could need it because the RBPi GPIOs are busy
++ Zynthian controllers (4 rotary encoders + switches) & buttons
++ GPIO expander (MCP23017) => Highly recommended.
 + MIDI IN/THRU/OUT ports => It uses RBPi's UART (optional)
-
-![Image of Zynthian Hardware Architecture](http://zynthian.org/img/github/zynthian_hardware_scheme_v4.png)
 
 You can learn more about the Zynthian Project in any of our sites: 
 
